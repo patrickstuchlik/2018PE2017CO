@@ -2,6 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
-.zip
-VS17LINK
-VS18LINK
+*.zip
+VS17LINK*
+VS18LINK*
