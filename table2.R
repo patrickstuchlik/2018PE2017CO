@@ -30,4 +30,21 @@ mracehisp_mod <- mracehisp %>%
   mutate(Race = str_remove(Definition," \\(only\\)")) %>%
   select(-c(Definition))
 
+#collapsed birthweight categories for table 2
+bwt_tbl2 <- fct_collapse(b17d1718$BWTR14,
+                        "<500" = "01",
+                        "500-749" = "02",
+                        "750-999" = "03",
+                        "1000-1249" = "04",
+                        "1250-1499" = "05",
+                        "1500-1999" = "06",
+                        "2000-2499" = "07",
+                        "2500+" = c("08","09","10","11","12","13"),
+                        "Not Stated" = "14"
+)
+
+b17d1718$bwt_tbl2 <- bwt_tbl2
+
+#aggregate counts
+
 
