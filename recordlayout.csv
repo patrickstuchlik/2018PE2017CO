@@ -1,0 +1,1001 @@
+﻿Position,Len,File*,Field,Description,Flag Position,Values,Definition,Territory Only
+1-7,1,NA,FILLER01,Filler,NA,Blank,NA,NA
+8,1,NA,LATEREC,Late Record Flag,NA,"0, blank",Not late record,NA
+8,1,NA,LATEREC,Late Record Flag,NA,1,Late record,NA
+9-12,4,"P,G",DOB_YY,Birth Year,NA,2017,2018,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,1,January,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,2,February,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,3,March,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,4,April,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,5,May,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,6,June,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,7,July,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,8,August,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,9,September,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,10,October,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,11,November,NA
+13-14,2,"P,G",DOB_MM,Birth Month,NA,12,December,NA
+15-18,4,NA,FILLER02,Filler,NA,Blank,NA,NA
+19-22,4,"P,G",DOB_TT,Time of Birth,126,0000-2359,Time of Birth,NA
+19-22,4,"P,G",DOB_TT,Time of Birth,126,9999,Not Stated,NA
+23,1,"P,G",DOB_WK,Birth Day of Week,NA,1,Sunday,NA
+23,1,"P,G",DOB_WK,Birth Day of Week,NA,2,Monday,NA
+23,1,"P,G",DOB_WK,Birth Day of Week,NA,3,Tuesday,NA
+23,1,"P,G",DOB_WK,Birth Day of Week,NA,4,Wednesday,NA
+23,1,"P,G",DOB_WK,Birth Day of Week,NA,5,Thursday,NA
+23,1,"P,G",DOB_WK,Birth Day of Week,NA,6,Friday,NA
+23,1,"P,G",DOB_WK,Birth Day of Week,NA,7,Saturday,NA
+24-31,8,NA,FILLER03,Filler,NA,Blank,NA,NA
+32,1,"P,G",BFACIL,"Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,1,Hospital,NA
+32,1,"P,G",BFACIL,"Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,2,Freestanding Birth Center,NA
+32,1,"P,G",BFACIL,"Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,3,Home (intended),NA
+32,1,"P,G",BFACIL,"Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,4,Home (not intended),NA
+32,1,"P,G",BFACIL,"Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,5,Home (unknown if intended),NA
+32,1,"P,G",BFACIL,"Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,6,Clinic / Doctor’s Office,NA
+32,1,"P,G",BFACIL,"Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,7,Other,NA
+32,1,"P,G",BFACIL,"Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,9,Unknown,NA
+33,1,"P,G",F_BFACIL,Reporting Flag for Birth Place,NA,See footnote,NA,NA
+34-49,16,NA,FILLER04,Filler,NA,Blank,NA,NA
+50,1,"P,G",BFACIL3,Facility Recode,NA,1,In Hospital,NA
+50,1,"P,G",BFACIL3,Facility Recode,NA,2,Not in Hospital,NA
+50,1,"P,G",BFACIL3,Facility Recode,NA,3,Unknown or Not Stated,NA
+51-72,22,NA,FILLER05,Filler,NA,Blank,NA,NA
+73,1,"P,G",MAGEIMP,"Mother’s Age Imputed
+Due to missing data, age imputed.",NA,Blank,Age not imputed,NA
+73,1,"P,G",MAGEIMP,"Mother’s Age Imputed
+Due to missing data, age imputed.",NA,1,Age imputed,NA
+74,1,"P,G",MAGEREP,"Reported Age of Mother Used Flag
+Due to missing date of birth, reported age used.",NA,Blank,Reported age not used,NA
+74,1,"P,G",MAGEREP,"Reported Age of Mother Used Flag
+Due to missing date of birth, reported age used.",NA,1,Reported age used,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,12,10 – 12 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,13,13 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,14,14 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,15,15 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,16,16 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,17,17 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,18,18 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,19,19 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,20,20 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,21,21 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,22,22 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,23,23 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,24,24 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,25,25 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,26,26 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,27,27 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,28,28 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,29,29 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,30,30 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,31,31 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,32,32 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,33,33 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,34,34 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,35,35 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,36,36 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,37,37 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,38,38 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,39,39 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,40,40 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,41,41 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,42,42 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,43,43 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,44,44 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,45,45 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,46,46 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,47,47 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,48,48 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,49,49 years,NA
+75-76,2,"P,G",MAGER,Mother’s Age Recode 41,NA,50,50 years and over,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,01,Under 15 Years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,03,15 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,04,16 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,05,17 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,06,18 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,07,19 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,08,20-24 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,09,25-29 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,10,30-34 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,11,35-39 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,12,40-44 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,13,45-49 years,NA
+77-78,2,"P,G",MAGER14,Mother’s Age Recode 14,NA,14,50-54 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,1,Under 15 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,2,15-19 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,3,20-24 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,4,25-29 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,5,30-34 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,6,35-39 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,7,40-44 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,8,45-49 years,NA
+79,1,"P,G",MAGER9,Mother’s Age Recode 9,NA,9,50-54 years,NA
+80-83,2,NA,FILLER06,Filler,NA,Blank,NA,NA
+84,1,"P,G",MBSTATE_REC,Mother’s Nativity,NA,1,Born in the U.S. (50 US States),NA
+84,1,"P,G",MBSTATE_REC,Mother’s Nativity,NA,2,Born outside the U.S. (includes possessions),NA
+84,1,"P,G",MBSTATE_REC,Mother’s Nativity,NA,3,Unknown or Not Stated,NA
+85-103,19,NA,FILLER07,Filler,NA,Blank,NA,NA
+104,1,"P,G",RESTATUS,Residence Status,NA,1,RESIDENT: State and county of occurrence and residence are the same.,FALSE
+104,1,"P,G",RESTATUS,Residence Status,NA,2,INTRASTATE NONRESIDENT: State of occurrence and residence are the same but county is different.,FALSE
+104,1,"P,G",RESTATUS,Residence Status,NA,3,INTERSTATE NONRESIDENT: State of occurrence and residence are different but both are one of the 50 US states or District of Columbia.,FALSE
+104,1,"P,G",RESTATUS,Residence Status,NA,4,FOREIGN RESIDENT: The state of residence is not one of the 50 US states or District of Columbia.,FALSE
+104,1,"P,G",RESTATUS,Residence Status,NA,1,"RESIDENT: State and county of occurrence and residence residence are the same.  (Unique to Guam, all US residents are considered residents of Guam and thus are assigned 1.)",TRUE
+104,1,"P,G",RESTATUS,Residence Status,NA,2,INTRATERRITORY NONRESIDENT: Territory of occurrence and residence are the same but county is different.,TRUE
+104,1,"P,G",RESTATUS,Residence Status,NA,2,INTERTERRITORY RESIDENT: Territory of occurrence and residence are different but both are US Territories.,TRUE
+104,1,"P,G",RESTATUS,Residence Status,NA,3,FOREIGN RESIDENT: The residence is not a US Territory.,TRUE
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,01,White (only) [only one race reported],NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,02,Black (only),NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,03,AIAN (American Indian or Alaskan Native) (only),NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,04,Asian (only),NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,05,NHOPI (Native Hawaiian or Other Pacific Islander) (only),NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,06,Black and White,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,07,Black and AIAN,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,08,Black and Asian,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,09,Black and NHOPI,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,10,AIAN and White,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,11,AIAN and Asian,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,12,AIAN and NHOPI,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,13,Asian and White,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,14,Asian and NHOPI,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,15,NHOPI and White,NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,16,"Black, AIAN, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,17,"Black, AIAN, and Asian",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,18,"Black, AIAN, and NHOPI",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,19,"Black, Asian, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,20,"Black, Asian, and NHOPI",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,21,"Black, NHOPI, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,22,"AIAN, Asian, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,23,"AIAN, NHOPI, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,24,"AIAN, Asian, and NHOPI",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,25,"Asian, NHOPI, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,26,"Black, AIAN, Asian, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,27,"Black, AIAN, Asian, and NHOPI",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,28,"Black, AIAN, NHOPI, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,29,"Black, Asian, NHOPI, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,30,"AIAN, Asian, NHOPI, and White",NA
+105-106,2,"P,G",MRACE31,Mother’s Race Recode 31,NA,31,"Black, AIAN, Asian, NHOPI, and White",NA
+107,1,"P,G",MRACE6,Mother’s Race Recode 6,NA,1,White (only),NA
+107,1,"P,G",MRACE6,Mother’s Race Recode 6,NA,2,Black (only),NA
+107,1,"P,G",MRACE6,Mother’s Race Recode 6,NA,3,AIAN (only),NA
+107,1,"P,G",MRACE6,Mother’s Race Recode 6,NA,4,Asian (only),NA
+107,1,"P,G",MRACE6,Mother’s Race Recode 6,NA,5,NHOPI (only),NA
+107,1,"P,G",MRACE6,Mother’s Race Recode 6,NA,6,More than one race,NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,01,White (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,02,Black (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,03,AIAN (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,04,Asian Indian (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,05,Chinese (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,06,Filipino (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,07,Japanese (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,08,Korean (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,09,Vietnamese (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,10,Other Asian (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,11,Hawaiian (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,12,Guamanian (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,13,Samoan (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,14,Other Pacific Islander (only),NA
+108-109,2,"P,G",MRACE15,Mother’s Race Recode 15,NA,15,More than one race,NA
+110,1,"P,G",MBRACE,"Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,1,White,FALSE
+110,1,"P,G",MBRACE,"Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,2,Black,FALSE
+110,1,"P,G",MBRACE,"Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,3,American Indian or Alaskan Native,FALSE
+110,1,"P,G",MBRACE,"Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,4,Asian or Pacific Islander,FALSE
+110,1,"P,G",MBRACE,"Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,1,White,TRUE
+110,1,"P,G",MBRACE,"Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,2,Black,TRUE
+110,1,"P,G",MBRACE,"Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,0,Other (not classified as White or Black),TRUE
+111,1,"P,G",MRACEIMP,Mother’s Race Imputed,NA,Blank,Mother’s race not imputed,NA
+111,1,"P,G",MRACEIMP,Mother’s Race Imputed,NA,1,Unknown race imputed,NA
+111,1,"P,G",MRACEIMP,Mother’s Race Imputed,NA,2,"All other races, formerly coded 09, imputed.",NA
+112-114,3,NA,FILLER08,Filler,NA,Blank,NA,NA
+115,1,"P,G",MHISP_R,Mother’s Hispanic Origin Recode,116,0,Non-Hispanic,NA
+115,1,"P,G",MHISP_R,Mother’s Hispanic Origin Recode,116,1,Mexican,NA
+115,1,"P,G",MHISP_R,Mother’s Hispanic Origin Recode,116,2,Puerto Rican,NA
+115,1,"P,G",MHISP_R,Mother’s Hispanic Origin Recode,116,3,Cuban,NA
+115,1,"P,G",MHISP_R,Mother’s Hispanic Origin Recode,116,4,Central and South American,NA
+115,1,"P,G",MHISP_R,Mother’s Hispanic Origin Recode,116,5,Other and Unknown Hispanic origin,NA
+115,1,"P,G",MHISP_R,Mother’s Hispanic Origin Recode,116,9,Hispanic origin not stated,NA
+116,1,"P,G",F_MHISP,Reporting Flag for Mother’s Origin,NA,NA,See footnote,NA
+117,1,"P,G",MRACEHISP,"Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,1,Non-Hispanic White (only),NA
+117,1,"P,G",MRACEHISP,"Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,2,Non-Hispanic Black (only),NA
+117,1,"P,G",MRACEHISP,"Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,3,Non-Hispanic AIAN (only),NA
+117,1,"P,G",MRACEHISP,"Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,4,Non-Hispanic Asian (only),NA
+117,1,"P,G",MRACEHISP,"Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,5,Non-Hispanic NHOPI (only),NA
+117,1,"P,G",MRACEHISP,"Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,6,Non-Hispanic more than one race,NA
+117,1,"P,G",MRACEHISP,"Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,7,Hispanic,NA
+117,1,"P,G",MRACEHISP,"Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,8,Origin unknown or not stated,NA
+118,1,NA,FILLER09,Filler,NA,Blank,NA,NA
+119,1,"P,G",MAR_P,Paternity Acknowledged,123,Y,Yes,NA
+119,1,"P,G",MAR_P,Paternity Acknowledged,123,N,No,NA
+119,1,"P,G",MAR_P,Paternity Acknowledged,123,U,Unknown,NA
+119,1,"P,G",MAR_P,Paternity Acknowledged,123,V,Not Applicable,NA
+120,1,"P,G",DMAR,Marital Status,NA,1,Married,FALSE
+120,1,"P,G",DMAR,Marital Status,NA,2,Unmarried,FALSE
+120,1,"P,G",DMAR,Marital Status,NA,9,"Unknown, NS",FALSE
+120,1,"P,G",DMAR,Marital Status,NA,1,Yes,TRUE
+120,1,"P,G",DMAR,Marital Status,NA,2,Unmarried parents living together,TRUE
+120,1,"P,G",DMAR,Marital Status,NA,3,Unmarried parents not living together,TRUE
+120,1,"P,G",DMAR,Marital Status,NA,9,Unknown or not stated,TRUE
+121,1,"P,G",MAR_IMP,Mother’s Marital Status Imputed,NA,Blank,Marital Status not imputed,NA
+121,1,"P,G",MAR_IMP,Mother’s Marital Status Imputed,NA,1,Marital Status imputed,NA
+122,1,NA,FILLER10,Filler,NA,Blank,NA,NA
+123,1,"P,G",F_MAR_P,Reporting Flag for Paternity Acknowledged,NA,NA,See footnote,NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,1,8th grade or less,NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,2,9th through 12th grade with no diploma,NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,3,High school graduate or GED completed,NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,4,"Some college credit, but not a degree.",NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,5,"Associate degree (AA,AS)",NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,6,"Bachelor’s degree (BA, AB, BS)",NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,7,"Master’s degree (MA, MS, MEng, MEd, MSW, MBA)",NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,8,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",NA
+124,1,"P,G",MEDUC,Mother’s Education,NA,9,Unknown,NA
+125,1,NA,FILLER11,Filler,NA,Blank,NA,NA
+126,1,"P,G",F_MEDUC,Reporting Flag for Education of Mother,NA,See footnote,NA,NA
+127-141,15,NA,FILLER11,Filler,NA,Blank,NA,NA
+142,1,"P,G",FAGERPT_FLG,Father’s Reported Age Used,NA,Blank,Father’s reported age not used,NA
+142,1,"P,G",FAGERPT_FLG,Father’s Reported Age Used,NA,1,Father’s reported age used,NA
+143-146,4,NA,FILLER12,Filler,NA,Blank,NA,NA
+147-148,2,"P,G",FAGECOMB,Father’s Combined Age (Revised),NA,09-98,Father’s combined age in years,NA
+147-148,2,"P,G",FAGECOMB,Father’s Combined Age (Revised),NA,99,Unknown or not stated,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,01,Under 15 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,02,15-19 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,03,20-24 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,04,25-29 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,05,30-34 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,06,35-39 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,07,40-44 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,08,45-49 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,09,50-54 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,10,55-98 years,NA
+149-150,2,"P,G",FAGE11,Father’s Age Recode 11,NA,11,Not stated,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,01,White (only) [only one race reported],NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,02,Black (only),NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,03,AIAN (American Indian or Alaskan Native) (only),NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,04,Asian (only),NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,05,NHOPI (Native Hawaiian or Other Pacific Islander) (only),NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,06,Black and White,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,07,Black and AIAN,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,08,Black and Asian,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,09,Black and NHOPI,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,10,AIAN and White,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,11,AIAN and Asian,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,12,AIAN and NHOPI,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,13,Asian and White,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,14,Asian and NHOPI,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,15,NHOPI and White,NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,16,"Black, AIAN, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,17,"Black, AIAN, and Asian",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,18,"Black, AIAN, and NHOPI",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,19,"Black, Asian, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,20,"Black, Asian, and NHOPI",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,21,"Black, NHOPI, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,22,"AIAN, Asian, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,23,"AIAN, NHOPI, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,24,"AIAN, Asian, and NHOPI",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,25,"Asian, NHOPI, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,26,"Black, AIAN, Asian, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,27,"Black, AIAN, Asian, and NHOPI",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,28,"Black, AIAN, NHOPI, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,29,"Black, Asian, NHOPI, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,30,"AIAN, Asian, NHOPI, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,31,"Black, AIAN, Asian, NHOPI, and White",NA
+151-152,2,"P,G",FRACE31,Father’s Race Recode 31,NA,99,Unknown or Not Stated,NA
+153,1,"P,G",FRACE6,Father’s Race Recode 6,NA,1,White (only),NA
+153,1,"P,G",FRACE6,Father’s Race Recode 6,NA,2,Black (only),NA
+153,1,"P,G",FRACE6,Father’s Race Recode 6,NA,3,AIAN (only),NA
+153,1,"P,G",FRACE6,Father’s Race Recode 6,NA,4,Asian (only),NA
+153,1,"P,G",FRACE6,Father’s Race Recode 6,NA,5,NHOPI (only),NA
+153,1,"P,G",FRACE6,Father’s Race Recode 6,NA,6,More than one race,NA
+153,1,"P,G",FRACE6,Father’s Race Recode 6,NA,9,Unknown or Not Stated,NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,01,White (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,02,Black (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,03,AIAN (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,04,Asian Indian (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,05,Chinese (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,06,Filipino (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,07,Japanese (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,08,Korean (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,09,Vietnamese (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,10,Other Asian (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,11,Hawaiian (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,12,Guamanian (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,13,Samoan (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,14,Other Pacific Islander (only),NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,15,More than one race,NA
+154-155,2,"P,G",FRACE15,Father’s Race Recode 15,NA,99,Unknown or Not Stated,NA
+156,1,"P,G",FBRACE,"Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,1,White,FALSE
+156,1,"P,G",FBRACE,"Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,2,Black,FALSE
+156,1,"P,G",FBRACE,"Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,3,American Indian or Alaskan Native,FALSE
+156,1,"P,G",FBRACE,"Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,4,Asian or Pacific Islander,FALSE
+156,1,"P,G",FBRACE,"Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,1,White,TRUE
+156,1,"P,G",FBRACE,"Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,2,Black,TRUE
+156,1,"P,G",FBRACE,"Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,0,Other (not classified as White or Black),TRUE
+157-159,3,NA,FILLER13,Filler,NA,Blank,NA,NA
+160,1,"P,G",FHISP_R,Father’s Hispanic Origin Recode,161,0,Non-Hispanic,NA
+160,1,"P,G",FHISP_R,Father’s Hispanic Origin Recode,161,1,Mexican,NA
+160,1,"P,G",FHISP_R,Father’s Hispanic Origin Recode,161,2,Puerto Rican,NA
+160,1,"P,G",FHISP_R,Father’s Hispanic Origin Recode,161,3,Cuban,NA
+160,1,"P,G",FHISP_R,Father’s Hispanic Origin Recode,161,4,Central and South American,NA
+160,1,"P,G",FHISP_R,Father’s Hispanic Origin Recode,161,5,Other and Unknown Hispanic origin,NA
+160,1,"P,G",FHISP_R,Father’s Hispanic Origin Recode,161,9,Hispanic origin not stated,NA
+161,1,"P,G",F_FHISP,Reporting Flag for Father’s Origin,NA,NA,See footnote,NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,1,Non-Hispanic White (only),NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,2,Non-Hispanic Black (only),NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,3,Non-Hispanic AIAN (only),NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,4,Non-Hispanic Asian (only),NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,5,Non-Hispanic NHOPI (only),NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,6,Non-Hispanic more than one race,NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,7,Hispanic,NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,8,Origin unknown or not stated,NA
+162,1,"P,G",FRACEHISP,"Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,9,Race unknown or not stated (Non-Hispanic),NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,1,8th grade or less,NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,2,9th through 12th grade with no diploma,NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,3,High school graduate or GED completed,NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,4,"Some college credit, but not a degree.",NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,5,"Associate degree (AA,AS)",NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,6,"Bachelor’s degree (BA, AB, BS)",NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,7,"Master’s degree (MA, MS, MEng, MEd, MSW, MBA)",NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,8,"Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",NA
+163,1,"P,G",FEDUC,Father’s Education 165,NA,9,Unknown,NA
+164,1,NA,FILLER14,Filler,NA,Blank,NA,NA
+165,1,"P,G",F_FEDUC,Reporting Flag for Education of Father,NA,NA,See footnote,NA
+166-170,5,NA,FILLER15,Filler,NA,Blank,NA,NA
+171-172,2,"P,G",PRIORLIVE,Prior Births Now Living,NA,00-30,Number of children still living from previous live births,NA
+171-172,2,"P,G",PRIORLIVE,Prior Births Now Living,NA,99,Unknown or not stated,NA
+173-174,2,"P,G",PRIORDEAD,Prior Births Now Dead,NA,00-30,Number of children dead from previous live births,NA
+173-174,2,"P,G",PRIORDEAD,Prior Births Now Dead,NA,99,Unknown or not stated,NA
+175-176,2,"P,G",PRIORTERM,Prior Terminations/Fetal Death,NA,0-30,Number of terminations/fetal deaths,NA
+175-176,2,"P,G",PRIORTERM,Prior Terminations/Fetal Death,NA,99,Unknown or not stated,NA
+177-178,2,NA,FILLER16,Filler,NA,Blank,NA,NA
+179,1,"P,G",LBO_REC,Live Birth Order Recode,NA,1-7,Live birth order,NA
+179,1,"P,G",LBO_REC,Live Birth Order Recode,NA,8,8 or more live births,NA
+179,1,"P,G",LBO_REC,Live Birth Order Recode,NA,9,Unknown or not stated,NA
+180-181,2,NA,FILLER17,Filler,NA,Blank,NA,NA
+182,1,"P,G",TPO_REC,Total Pregnancy Order Recode,NA,1-7,Total pregnancy order,NA
+182,1,"P,G",TPO_REC,Total Pregnancy Order Recode,NA,8,8 or more total pregnanices,NA
+182,1,"P,G",TPO_REC,Total Pregnancy Order Recode,NA,9,Unknown or not stated,NA
+183-197,15,NA,FILLER18,Filler,NA,Blank,NA,NA
+198-200,3,"P,G",ILLB_R,Interval of Last Live Birth Recode,126,000-003,Plural delivery,NA
+198-200,3,"P,G",ILLB_R,Interval of Last Live Birth Recode,126,004-300,Months since last live birth Not applicable / 1st live birth,NA
+198-200,3,"P,G",ILLB_R,Interval of Last Live Birth Recode,126,888,NA,NA
+198-200,3,"P,G",ILLB_R,Interval of Last Live Birth Recode,126,999,Unknown or not stated,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,00,Zero to 3 months (plural delivery),NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,01,4 to 11 months,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,02,12 to 17 months,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,03,18 to 23 months,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,04,24 to 35 months,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,05,36 to 47 months,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,06,48 to 59 months,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,07,60 to 71 months,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,08,72 months and over,NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,88,Not applicable (1st live birth),NA
+201-202,2,"P,G",ILLB_R11,Interval Since Last Live Birth Recode 11,126,99,Unknown or not stated,NA
+203-205,3,NA,FILLER19,Filler,NA,Blank,NA,NA
+206-208,3,"P,G",ILOO_R,Interval Since Last Other Outcome Recode,126,000-003,Plural delivery,NA
+206-208,3,"P,G",ILOO_R,Interval Since Last Other Outcome Recode,126,004-300,Months since last other pregnancy outcome,NA
+206-208,3,"P,G",ILOO_R,Interval Since Last Other Outcome Recode,126,888,Not applicable / 1st natality event,NA
+206-208,3,"P,G",ILOO_R,Interval Since Last Other Outcome Recode,126,999,Unknown or not stated,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,00,Zero to 3 months (plural delivery),NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,01,4 to 11 months,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,02,12 to 17 months,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,03,18 to 23 months,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,04,24 to 35 months,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,05,36 to 47 months,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,06,48 to 59 months,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,07,60 to 71 months,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,08,72 months and over,NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,88,Not applicable (1st natality event),NA
+209-210,2,"P,G",ILOO_R11,Interval Since Last Other Outcome Recode 11,126,99,Unknown or not stated,NA
+211-213,3,NA,FILLER20,Filler,NA,Blank,NA,NA
+214-216,3,"P,G",ILP_R,Interval Since Last Pregnancy Recode,126,000-003,Plural delivery,NA
+214-216,3,"P,G",ILP_R,Interval Since Last Pregnancy Recode,126,004-300,Months since last live birth,NA
+214-216,3,"P,G",ILP_R,Interval Since Last Pregnancy Recode,126,888,Not applicable / no previous pregnancy,NA
+214-216,3,"P,G",ILP_R,Interval Since Last Pregnancy Recode,126,999,Unknown or not stated,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,00,Zero to 3 months (plural delivery),NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,01,4 to 11 months,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,02,12 to 17 months,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,03,18 to 23 months,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,04,24 to 35 months,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,05,36 to 47 months,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,06,48 to 59 months,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,07,60 to 71 months,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,08,72 months and over,NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,88,Not applicable (no previous pregnancy),NA
+217-218,2,"P,G",ILP_R11,Interval Since Last Pregnancy Recode 11,126,99,Unknown or not stated,NA
+219-223,5,NA,FILLER21,Filler,NA,Blank,NA,NA
+224-225,2,"P,G",PRECARE,Month Prenatal Care,226,00,No prenatal care,NA
+224-225,2,"P,G",PRECARE,Month Prenatal Care,226,01-10,Month prenatal care began,NA
+224-225,2,"P,G",PRECARE,Month Prenatal Care,226,99,Unknown or not stated,NA
+226,1,"P,G",F_MPCB,Reporting Flag for Month Prenatal Care Began,NA,NA,See footnote,NA
+227,1,"P,G",PRECARE5,Month Prenatal Care Began Recode,226,1,1st to 3rd month,NA
+227,1,"P,G",PRECARE5,Month Prenatal Care Began Recode,226,2,4th to 6th month,NA
+227,1,"P,G",PRECARE5,Month Prenatal Care Began Recode,226,3,7th to final month,NA
+227,1,"P,G",PRECARE5,Month Prenatal Care Began Recode,226,4,No prenatal care,NA
+227,1,"P,G",PRECARE5,Month Prenatal Care Began Recode,226,5,Unknown or not stated,NA
+228-237,10,NA,FILLER22,Filler,NA,Blank,NA,NA
+238-239,2,"P,G",PREVIS,"Number of Prenatal Visits (Revised)
+See field 242-243 for national data",NA,00-98,Number of prenatal visits,NA
+238-239,2,"P,G",PREVIS,"Number of Prenatal Visits (Revised)
+See field 242-243 for national data",NA,99,Unknown or not stated,NA
+240-241,2,NA,FILLER23,Filler,NA,Blank,NA,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,01,No visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,02,1 to 2 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,03,3 to 4 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,04,5 to 6 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,05,7 to 8 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,06,9 to 10 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,07,11 to 12 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,08,13 to 14 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,09,15 to 16 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,10,17 to 18 visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,11,19 or more visits,NA
+242-243,2,"P,G",PREVIS_REC,Number of Prenatal Visits Recode,244,12,Unknown or not stated,NA
+244,1,"P,G",F_TPCV,Reporting Flag for Total Prenatal Care Visits,NA,NA,See footnote,NA
+245-250,6,NA,FILLER24,Filler,NA,Blank,NA,NA
+251,1,"P,G",WIC,WIC,252,Y,Yes,NA
+251,1,"P,G",WIC,WIC,252,N,No,NA
+251,1,"P,G",WIC,WIC,252,U,Unknown or not stated,NA
+252,1,"P,G",F_WIC,Reporting Flag for WIC,NA,0,Non-Reporting,NA
+252,1,"P,G",F_WIC,Reporting Flag for WIC,NA,1,Reporting,NA
+253-254,2,"P,G",CIG_0,Cigarettes Before Pregnancy,265,00-97,Number of cigarettes daily,NA
+253-254,2,"P,G",CIG_0,Cigarettes Before Pregnancy,265,98,98 or more cigarettes daily,NA
+253-254,2,"P,G",CIG_0,Cigarettes Before Pregnancy,265,99,Unknown or not stated,NA
+255-256,2,"P,G",CIG_1,Cigarettes 1st Trimester,266,00-97,Number of cigarettes daily,NA
+255-256,2,"P,G",CIG_1,Cigarettes 1st Trimester,266,98,98 or more cigarettes daily,NA
+255-256,2,"P,G",CIG_1,Cigarettes 1st Trimester,266,99,Unknown or not stated,NA
+257-258,2,"P,G",CIG_2,Cigarettes 2nd Trimester,267,00-97,Number of cigarettes daily,NA
+257-258,2,"P,G",CIG_2,Cigarettes 2nd Trimester,267,98,98 or more cigarettes daily,NA
+257-258,2,"P,G",CIG_2,Cigarettes 2nd Trimester,267,99,Unknown or not stated,NA
+259-260,2,"P,G",CIG_3,Cigarettes 3rd Trimester,268,00-97,Number of cigarettes daily,NA
+259-260,2,"P,G",CIG_3,Cigarettes 3rd Trimester,268,98,98 or more cigarettes daily,NA
+259-260,2,"P,G",CIG_3,Cigarettes 3rd Trimester,268,99,Unknown or not stated,NA
+261,1,"P,G",CIG0_R,Cigarettes Before Pregnancy Recode,265,0,Nonsmoker,NA
+261,1,"P,G",CIG0_R,Cigarettes Before Pregnancy Recode,265,1,1-5,NA
+261,1,"P,G",CIG0_R,Cigarettes Before Pregnancy Recode,265,2,6-10,NA
+261,1,"P,G",CIG0_R,Cigarettes Before Pregnancy Recode,265,3,11-20,NA
+261,1,"P,G",CIG0_R,Cigarettes Before Pregnancy Recode,265,4,21-40,NA
+261,1,"P,G",CIG0_R,Cigarettes Before Pregnancy Recode,265,5,41 or more,NA
+261,1,"P,G",CIG0_R,Cigarettes Before Pregnancy Recode,265,6,Unknown or not stated,NA
+262,1,"P,G",CIG1_R,Cigarettes 1st Trimester Recode,266,0,Nonsmoker,NA
+262,1,"P,G",CIG1_R,Cigarettes 1st Trimester Recode,266,1,1-5,NA
+262,1,"P,G",CIG1_R,Cigarettes 1st Trimester Recode,266,2,6-10,NA
+262,1,"P,G",CIG1_R,Cigarettes 1st Trimester Recode,266,3,11-20,NA
+262,1,"P,G",CIG1_R,Cigarettes 1st Trimester Recode,266,4,21-40,NA
+262,1,"P,G",CIG1_R,Cigarettes 1st Trimester Recode,266,5,41 or more,NA
+262,1,"P,G",CIG1_R,Cigarettes 1st Trimester Recode,266,6,Unknown or not stated,NA
+263,1,"P,G",CIG2_R,Cigarettes 2nd Trimester Recode,267,0,Nonsmoker,NA
+263,1,"P,G",CIG2_R,Cigarettes 2nd Trimester Recode,267,1,1-5,NA
+263,1,"P,G",CIG2_R,Cigarettes 2nd Trimester Recode,267,2,6-10,NA
+263,1,"P,G",CIG2_R,Cigarettes 2nd Trimester Recode,267,3,11-20,NA
+263,1,"P,G",CIG2_R,Cigarettes 2nd Trimester Recode,267,4,21-40,NA
+263,1,"P,G",CIG2_R,Cigarettes 2nd Trimester Recode,267,5,41 or more,NA
+263,1,"P,G",CIG2_R,Cigarettes 2nd Trimester Recode,267,6,Unknown or not stated,NA
+264,1,"P,G",CIG3_R,Cigarettes 3rd Trimester Recode,268,0,Nonsmoker,NA
+264,1,"P,G",CIG3_R,Cigarettes 3rd Trimester Recode,268,1,1-5,NA
+264,1,"P,G",CIG3_R,Cigarettes 3rd Trimester Recode,268,2,6-10,NA
+264,1,"P,G",CIG3_R,Cigarettes 3rd Trimester Recode,268,3,11-20,NA
+264,1,"P,G",CIG3_R,Cigarettes 3rd Trimester Recode,268,4,21-40,NA
+264,1,"P,G",CIG3_R,Cigarettes 3rd Trimester Recode,268,5,41 or more,NA
+264,1,"P,G",CIG3_R,Cigarettes 3rd Trimester Recode,268,6,Not stated / Not on certificate,NA
+265,1,"P,G",F_CIGS_0,Reporting Flag for Cigarettes before Pregnancy,NA,NA,See footnote,NA
+266,1,"P,G",F_CIGS_1,Reporting Flag for Cigarettes 1st Trimester,NA,NA,See footnote,NA
+267,1,"P,G",F_CIGS_2,Reporting Flag for Cigarettes 2nd Trimester,NA,NA,See footnote,NA
+268,1,"P,G",F_CIGS_3,Reporting Flag for Cigarettes 3rd Trimester,NA,NA,See footnote,NA
+269,1,"P,G",CIG_REC,Cigarette Recode (Revised),270,Y,Yes,NA
+269,1,"P,G",CIG_REC,Cigarette Recode (Revised),270,N,No,NA
+269,1,"P,G",CIG_REC,Cigarette Recode (Revised),270,U,Unknown or not stated,NA
+270,1,"P,G",F_TOBACO,Reporting Flag for Tobacco use,NA,NA,See footnote,NA
+271-279,9,NA,FILLER25,Filler,NA,Blank,NA,NA
+280-281,2,"P,G",MHTR,Mother’s Height in Inches (Recode),282,30-78,Height in inches,NA
+280-281,2,"P,G",MHTR,Mother’s Height in Inches (Recode),282,99,Unknown or not stated,NA
+282,1,"P,G",F_M_HT,Reporting Flag for Mother’s Height,NA,NA,See footnote,NA
+283-286,4,"P,G",BMI,BMI,282,13.0-69.9,Body Mass Index,NA
+283-286,4,"P,G",BMI,BMI,282,99.9,Unknown or not stated,NA
+287,1,"P,G",BMI_R,Body Mass Index Recode,282,1,Underweight <18.5,NA
+287,1,"P,G",BMI_R,Body Mass Index Recode,282,2,Normal 18.5-24.9,NA
+287,1,"P,G",BMI_R,Body Mass Index Recode,282,3,Overweight 25.0-29.9,NA
+287,1,"P,G",BMI_R,Body Mass Index Recode,282,4,Obesity I 35.0-39.9,NA
+287,1,"P,G",BMI_R,Body Mass Index Recode,282,5,Obesity II 35.0-39.9,NA
+287,1,"P,G",BMI_R,Body Mass Index Recode,282,6,Extreme Obesity III ≥ 40.0,NA
+287,1,"P,G",BMI_R,Body Mass Index Recode,282,9,Unknown or not stated,NA
+288-291,4,NA,FILLER26,Filler,NA,Blank,NA,NA
+292-294,3,"P,G",PWgt_R,Pre-pregnancy Weight Recode,295,075-375,Weight in pounds,NA
+292-294,3,"P,G",PWgt_R,Pre-pregnancy Weight Recode,295,999,Unknown or not stated,NA
+295,1,"P,G",F_PWGT,Reporting Flag for Pre-pregnancy Weight,NA,NA,See footnote,NA
+296-298,3,NA,FILLER27,Filler,NA,Blank,NA,NA
+299-301,3,"P,G",DWGT_R,Delivery Weight Recode,303,100-400,Weight in pounds,NA
+299-301,3,"P,G",DWGT_R,Delivery Weight Recode,303,999,Unknown or not stated,NA
+302,1,NA,FILLER28,Filler,NA,Blank,NA,NA
+303,1,"P,G",F_DWGT,Reporting Flag for Delivery Weight,NA,NA,See footnote,NA
+304-305,2,"P,G",WTGAIN,Weight Gain,307,00-97,Weight gain in pounds,NA
+304-305,2,"P,G",WTGAIN,Weight Gain,307,98,98 pounds and over,NA
+304-305,2,"P,G",WTGAIN,Weight Gain,307,99,Unknown or not stated,NA
+306,1,"P,G",WTGAIN_REC,Weight Gain Recode,307,1,Less than 11 pounds,NA
+306,1,"P,G",WTGAIN_REC,Weight Gain Recode,307,2,11 to 20 pounds,NA
+306,1,"P,G",WTGAIN_REC,Weight Gain Recode,307,3,21 to 30 pounds,NA
+306,1,"P,G",WTGAIN_REC,Weight Gain Recode,307,4,31 to 40 pounds,NA
+306,1,"P,G",WTGAIN_REC,Weight Gain Recode,307,5,41 to 98 pounds,NA
+306,1,"P,G",WTGAIN_REC,Weight Gain Recode,307,9,Unknown or not stated See footnote,NA
+307,1,"P,G",F_WTGAIN,Reporting Flag for Weight Gain,NA,NA,See footnote,NA
+308-312,5,NA,FILLER29,Filler,NA,Blank,NA,NA
+313,1,"P,G",RF_PDIAB,Pre-pregnancy Diabetes,319,Y,Yes,NA
+313,1,"P,G",RF_PDIAB,Pre-pregnancy Diabetes,319,N,No,NA
+313,1,"P,G",RF_PDIAB,Pre-pregnancy Diabetes,319,U,Unknown or not stated,NA
+314,1,"P,G",RF_GDIAB,Gestational Diabetes,320,Y,Yes,NA
+314,1,"P,G",RF_GDIAB,Gestational Diabetes,320,N,No,NA
+314,1,"P,G",RF_GDIAB,Gestational Diabetes,320,U,Unknown or not stated,NA
+315,1,"P,G",RF_PHYPE,Pre-pregnancy Hypertension,321,Y,Yes,NA
+315,1,"P,G",RF_PHYPE,Pre-pregnancy Hypertension,321,N,No,NA
+315,1,"P,G",RF_PHYPE,Pre-pregnancy Hypertension,321,U,Unknown or not stated,NA
+316,1,"P,G",RF_GHYPE,Gestational Hypertension,322,Y,Yes,NA
+316,1,"P,G",RF_GHYPE,Gestational Hypertension,322,N,No,NA
+316,1,"P,G",RF_GHYPE,Gestational Hypertension,322,U,Unknown or not stated,NA
+317,1,"P,G",RF_EHYPE,Hypertension Eclampsia,323,Y,Yes,NA
+317,1,"P,G",RF_EHYPE,Hypertension Eclampsia,323,N,No,NA
+317,1,"P,G",RF_EHYPE,Hypertension Eclampsia,323,U,Unknown or not stated,NA
+318,1,"P,G",RF_PPB,Previous Preterm Birth,324,Y,Yes,NA
+318,1,"P,G",RF_PPB,Previous Preterm Birth,324,N,No,NA
+318,1,"P,G",RF_PPB,Previous Preterm Birth,324,U,Unknown or not stated,NA
+319,1,"P,G",F_RF_PDIAB,Reporting Flag for Pre-pregnancy Diabetes,NA,NA,See footnote,NA
+320,1,"P,G",F_RF_GDIAB,Reporting Flag for Gestational Diabetes,NA,NA,See footnote,NA
+321,1,"P,G",F_RF_PHYPE,Reporting Flag for Pre-pregnancy Hypertension,NA,NA,See footnote,NA
+322,1,"P,G",F_RF_GHYPE,Reporting Flag for Gestational Hypertension,NA,NA,See footnote,NA
+323,1,"P,G",F_RF_EHYPE,Reporting Flag for Hypertension Eclampsia,NA,NA,See footnote,NA
+324,1,"P,G",F_RF_PPB,Reporting Flag for Previous Preterm Birth,NA,NA,See footnote,NA
+325,1,"P,G",RF_INFT,"Infertility Treatment
+Use reporting flag in field 319",328,Y,Yes,NA
+325,1,"P,G",RF_INFT,"Infertility Treatment
+Use reporting flag in field 319",328,N,No,NA
+325,1,"P,G",RF_INFT,"Infertility Treatment
+Use reporting flag in field 319",328,U,Unknown or not stated,NA
+326,1,"P,G",RF_DRG,Fertility Enhancing Drugs,329,Y,Yes,NA
+326,1,"P,G",RF_DRG,Fertility Enhancing Drugs,329,N,No,NA
+326,1,"P,G",RF_DRG,Fertility Enhancing Drugs,329,X,Not applicable,NA
+326,1,"P,G",RF_DRG,Fertility Enhancing Drugs,329,U,Unknown or not stated,NA
+327,1,"P,G",RF_ART,Asst. Reproductive Technology,330,Y,Yes,NA
+327,1,"P,G",RF_ART,Asst. Reproductive Technology,330,N,No,NA
+327,1,"P,G",RF_ART,Asst. Reproductive Technology,330,X,Not applicable,NA
+327,1,"P,G",RF_ART,Asst. Reproductive Technology,330,U,Unknown or not stated,NA
+328,1,NA,FILLER30,Filler,NA,Blank,NA,NA
+329,1,"P,G",F_RF_DRG,Reporting Flag for Fertility Enhance Drugs,NA,NA,See footnote,NA
+330,1,"P,G",F_RF_ART,Reporting Flag for Reproductive Technology,NA,NA,See footnote,NA
+331,1,"P,G",RF_CESAR,Previous Cesareans,335,Y,Yes,NA
+331,1,"P,G",RF_CESAR,Previous Cesareans,335,N,No,NA
+331,1,"P,G",RF_CESAR,Previous Cesareans,335,U,Unknown or not stated,NA
+332-333,2,"P,G",RF_CESARN,Number of Previous Cesareans,NA,00,None,NA
+332-333,2,"P,G",RF_CESARN,Number of Previous Cesareans,336,01-30,Number of previous cesareans,NA
+332-333,2,"P,G",RF_CESARN,Number of Previous Cesareans,336,99,Unknown or not stated,NA
+334,1,NA,FILLER30,Filler,NA,Blank,NA,NA
+334,1,NA,FILLER30,Filler,NA,NA,NA,NA
+335,1,"P,G",F_RF_CESAR,Reporting Flag for Previous Cesarean,NA,NA,See footnote,NA
+336,1,"P,G",F_RF_NCESAR,Reporting Flag for Number of Previous Cesareans,NA,NA,See footnote,NA
+337,1,"P,G",NO_RISKS,No Risk Factors Checked,126,1,TRUE,NA
+337,1,"P,G",NO_RISKS,No Risk Factors Checked,126,0,FALSE,NA
+337,1,"P,G",NO_RISKS,No Risk Factors Checked,126,9,Not Reported,NA
+338-342,4,NA,FILLER31,Filler,NA,Blank,NA,NA
+343,1,"P,G",IP_GON,Gonorrhea,348,Y,Yes,NA
+343,1,"P,G",IP_GON,Gonorrhea,348,N,No,NA
+343,1,"P,G",IP_GON,Gonorrhea,348,U,Unknown or not stated,NA
+344,1,"P,G",IP_SYPH,Syphilis,349,Y,Yes,NA
+344,1,"P,G",IP_SYPH,Syphilis,349,N,No,NA
+344,1,"P,G",IP_SYPH,Syphilis,349,U,Unknown or not stated,NA
+345,1,"P,G",IP_CHLAM,Chlamydia,350,Y,Yes,NA
+345,1,"P,G",IP_CHLAM,Chlamydia,350,N,No,NA
+345,1,"P,G",IP_CHLAM,Chlamydia,350,U,Unknown or not stated,NA
+346,1,"P,G",IP_HEPB,Hepatitis B,351,Y,Yes,NA
+346,1,"P,G",IP_HEPB,Hepatitis B,351,N,No,NA
+346,1,"P,G",IP_HEPB,Hepatitis B,351,U,Unknown or not stated,NA
+347,1,"P,G",IP_HEPC,Hepatitis C,352,Y,Yes,NA
+347,1,"P,G",IP_HEPC,Hepatitis C,352,N,No,NA
+347,1,"P,G",IP_HEPC,Hepatitis C,352,U,Unknown or not stated,NA
+348,1,"P,G",F_IP_GON,Reporting Flag for Gonorrhea,NA,NA,See footnote,NA
+349,1,"P,G",F_IP_SYPH,Reporting Flag for Syphilis,NA,NA,See footnote,NA
+350,1,"P,G",F_IP_CHLAM,Reporting Flag for Chlamydia,NA,NA,See footnote,NA
+351,1,"P,G",F_IP_HEPB,Reporting Flag for Hepatitis B,NA,NA,See footnote,NA
+352,1,"P,G",F_IP_HEPC,Reporting Flag for Hepatitis C,NA,NA,See footnote,NA
+353,1,"P,G",NO_INFEC,No Infections Checked,126,1,True,NA
+353,1,"P,G",NO_INFEC,No Infections Checked,126,0,False,NA
+353,1,"P,G",NO_INFEC,No Infections Checked,126,9,Not Reported,NA
+354-359,6,NA,FILLER32,Filler,NA,Blank,NA,NA
+360,1,"P,G",OB_SUCC,Successful External Cephalic Version,363,Y,Yes,NA
+360,1,"P,G",OB_SUCC,Successful External Cephalic Version,363,N,No,NA
+360,1,"P,G",OB_SUCC,Successful External Cephalic Version,363,U,Unknown or not stated,NA
+361,1,"P,G",OB_FAIL,Failed External Cephalic Version,364,Y,Yes,NA
+361,1,"P,G",OB_FAIL,Failed External Cephalic Version,364,N,No,NA
+361,1,"P,G",OB_FAIL,Failed External Cephalic Version,364,U,Unknown or not stated,NA
+362,1,NA,FILLER33,Filler,NA,Blank,NA,NA
+363,1,"P,G",F_OB_SUCC,Reporting Flag for Successful External Cephalic Version,NA,NA,See footnote,NA
+364,1,"P,G",F_OB_FAIL,Reporting Flag for Failed External Cephalic Version,NA,NA,See footnote,NA
+365-371,7,"P,G",CO_SEQNUM,Cohort Sequence Number,NA,"xxx,xxx-xxx,xxx",NA,NA
+372-375,4,"P,G",CO_DODYY,Cohort Year of Death,NA,20XX,NA,NA
+376-382,7,"P,G",FILLER34,Filler,NA,Blank,NA,NA
+383,1,"P,G",LD_INDL,Induction of Labor,389,Y,Yes,NA
+383,1,"P,G",LD_INDL,Induction of Labor,389,N,No,NA
+383,1,"P,G",LD_INDL,Induction of Labor,389,U,Unknown or not stated,NA
+384,1,"P,G",LD_AUGM,Augmentation of Labor,390,Y,Yes,NA
+384,1,"P,G",LD_AUGM,Augmentation of Labor,390,N,No,NA
+384,1,"P,G",LD_AUGM,Augmentation of Labor,390,U,Unknown or not stated,NA
+385,1,"P,G",LD_STER,Steroids,391,Y,Yes,NA
+385,1,"P,G",LD_STER,Steroids,391,N,No,NA
+385,1,"P,G",LD_STER,Steroids,391,U,Unknown or not stated,NA
+386,1,"P,G",LD_ANTB,Antibiotics,392,Y,Yes,NA
+386,1,"P,G",LD_ANTB,Antibiotics,392,N,No,NA
+386,1,"P,G",LD_ANTB,Antibiotics,392,U,Unknown or not stated,NA
+387,1,"P,G",LD_CHOR,Chorioamnionitis,393,Y,Yes,NA
+387,1,"P,G",LD_CHOR,Chorioamnionitis,393,N,No,NA
+387,1,"P,G",LD_CHOR,Chorioamnionitis,393,U,Unknown or not stated,NA
+388,1,"P,G",LD_ANES,Anesthesia,394,Y,Yes,NA
+388,1,"P,G",LD_ANES,Anesthesia,394,N,No,NA
+388,1,"P,G",LD_ANES,Anesthesia,394,U,Unknown or not stated,NA
+389,1,"P,G",F_LD_INDL,Reporting Flag for Induction of Labor,NA,NA,See footnote,NA
+390,1,"P,G",F_LD_AUGM,Reporting Flag for Augmentation of Labor,NA,NA,See footnote,NA
+391,1,"P,G",F_LD_STER,Reporting Flag for Steroids,NA,NA,See footnote,NA
+392,1,"P,G",F_LD_ANTB,Reporting Flag for Antibiotics,NA,NA,See footnote,NA
+393,1,"P,G",F_LD_CHOR,Reporting Flag for Chorioamnionitis,NA,NA,See footnote,NA
+394,1,"P,G",F_LD_ANES,Reporting Flag for Anesthesia,NA,NA,See footnote,NA
+395,1,"P,G",NO_LBRDLV,No Characteristics of Labor Checked,126,1,True,NA
+395,1,"P,G",NO_LBRDLV,No Characteristics of Labor Checked,126,0,False,NA
+395,1,"P,G",NO_LBRDLV,No Characteristics of Labor Checked,126,9,Not Reported,NA
+396-400,5,NA,FILLER35,Filler,NA,Blank,NA,NA
+401,1,"P,G",ME_PRES,Fetal Presentation,404,1,Cephalic,NA
+401,1,"P,G",ME_PRES,Fetal Presentation,404,2,Breech,NA
+401,1,"P,G",ME_PRES,Fetal Presentation,404,3,Other,NA
+401,1,"P,G",ME_PRES,Fetal Presentation,404,9,Unknown or not stated,NA
+402,1,"P,G",ME_ROUT,Final Route & Method of Delivery,405,1,Spontaneous,NA
+402,1,"P,G",ME_ROUT,Final Route & Method of Delivery,405,2,Forceps,NA
+402,1,"P,G",ME_ROUT,Final Route & Method of Delivery,405,3,Vacuum,NA
+402,1,"P,G",ME_ROUT,Final Route & Method of Delivery,405,4,Cesarean,NA
+402,1,"P,G",ME_ROUT,Final Route & Method of Delivery,405,9,Unknown or not stated,NA
+403,1,"P,G",ME_TRIAL,Trial of Labor Attempted,406,Y,Yes,NA
+403,1,"P,G",ME_TRIAL,Trial of Labor Attempted,406,N,No,NA
+403,1,"P,G",ME_TRIAL,Trial of Labor Attempted,406,X,Not applicable,NA
+403,1,"P,G",ME_TRIAL,Trial of Labor Attempted,406,U,Unknown or not stated,NA
+404,1,"P,G",F_ME_PRES,Reporting Flag for Fetal Presentation,NA,NA,See footnote,NA
+405,1,"P,G",F_ME_ROUT,Reporting Flag for Final Route and Method of Delivery,NA,NA,See footnote,NA
+406,1,"P,G",F_ME_TRIAL,Reporting Flag for Trial of Labor Attempted,NA,NA,See footnote,NA
+407,1,"P,G",RDMETH_REC,Delivery Method Recode,409,1,Vaginal (excludes vaginal after previous C-section),NA
+407,1,"P,G",RDMETH_REC,Delivery Method Recode,409,2,Vaginal after previous c-section,NA
+407,1,"P,G",RDMETH_REC,Delivery Method Recode,409,3,Primary C-section,NA
+407,1,"P,G",RDMETH_REC,Delivery Method Recode,409,4,Repeat C-section,NA
+407,1,"P,G",RDMETH_REC,Delivery Method Recode,409,5,Vaginal (unknown if previous c-section),NA
+407,1,"P,G",RDMETH_REC,Delivery Method Recode,409,6,C-section (unknown if previous c-section),NA
+407,1,"P,G",RDMETH_REC,Delivery Method Recode,409,9,Not stated,NA
+408,1,"P,G",DMETH_REC,Delivery Method Recode Combined,NA,1,Vaginal,NA
+408,1,"P,G",DMETH_REC,Delivery Method Recode Combined,NA,2,C-Section,NA
+408,1,"P,G",DMETH_REC,Delivery Method Recode Combined,NA,9,Unknown,NA
+409,1,"P,G",F_DMETH_REC,Reporting Flag for Method of Delivery Recode,NA,NA,See footnote,NA
+410-414,5,NA,FILLER36,Filler,NA,Blank,NA,NA
+415,1,"P,G",MM_MTR,Maternal Transfusion,421,Y,Yes,NA
+415,1,"P,G",MM_MTR,Maternal Transfusion,421,N,No,NA
+415,1,"P,G",MM_MTR,Maternal Transfusion,421,U,Unknown or not stated,NA
+416,1,"P,G",MM_PLAC,Perineal Laceration,422,Y,Yes,NA
+416,1,"P,G",MM_PLAC,Perineal Laceration,422,N,No,NA
+416,1,"P,G",MM_PLAC,Perineal Laceration,422,U,Unknown or not stated,NA
+417,1,"P,G",MM_RUPT,Ruptured Uterus,423,Y,Yes,NA
+417,1,"P,G",MM_RUPT,Ruptured Uterus,423,N,No,NA
+417,1,"P,G",MM_RUPT,Ruptured Uterus,423,U,Unknown or not stated,NA
+418,1,"P,G",MM_UHYST,Unplanned Hysterectomy,424,Y,Yes,NA
+418,1,"P,G",MM_UHYST,Unplanned Hysterectomy,424,N,No,NA
+418,1,"P,G",MM_UHYST,Unplanned Hysterectomy,424,U,Unknown or not stated,NA
+419,1,"P,G",MM_AICU,Admit to Intensive Care,425,Y,Yes,NA
+419,1,"P,G",MM_AICU,Admit to Intensive Care,425,N,No,NA
+419,1,"P,G",MM_AICU,Admit to Intensive Care,425,U,Unknown or not stated,NA
+420,1,NA,FILLER37,Filler,NA,Blank,NA,NA
+421,1,"P,G",F_MM_MTR,Reporting Flag for Maternal Transfusion,NA,NA,See footnote,NA
+422,1,"P,G",F_MM_ PLAC,Reporting Flag for Perineal Laceration,NA,NA,See footnote,NA
+423,1,"P,G",F_MM_RUPT,Reporting Flag for Ruptured Uterus,NA,NA,See footnote,NA
+424,1,"P,G",F_MM_UHYST,Reporting Flag for Unplanned Hysterectomy,NA,NA,See footnote,NA
+425,1,"P,G",F_MM_AICU,Reporting Flag for Admission to Intensive Care,NA,NA,See footnote,NA
+426,1,NA,FILLER38,Filler,NA,Blank,NA,NA
+427,1,"P,G",NO_MMORB,No Maternal Morbidity Checked,126,1,True,NA
+427,1,"P,G",NO_MMORB,No Maternal Morbidity Checked,126,0,False,NA
+427,1,"P,G",NO_MMORB,No Maternal Morbidity Checked,126,9,Not Reported,NA
+428-432,5,NA,FILLER39,Filler,NA,Blank,NA,NA
+433,1,"P,G",ATTEND,Attendant,NA,1,Doctor of Medicine (MD),NA
+433,1,"P,G",ATTEND,Attendant,NA,2,Doctor of Osteopathy (DO),NA
+433,1,"P,G",ATTEND,Attendant,NA,3,Certified Nurse Midwife (CNM),NA
+433,1,"P,G",ATTEND,Attendant,NA,4,Other Midwife,NA
+433,1,"P,G",ATTEND,Attendant,NA,5,Other,NA
+433,1,"P,G",ATTEND,Attendant,NA,9,Unknown or not stated,NA
+434,1,"P,G",MTRAN,Mother Transferred,126,Y,Yes,NA
+434,1,"P,G",MTRAN,Mother Transferred,126,N,No,NA
+434,1,"P,G",MTRAN,Mother Transferred,126,U,Unknown,NA
+435,1,"P,G",PAY,Payment Source,437,1,Medicaid,NA
+435,1,"P,G",PAY,Payment Source,437,2,Private Insurance,NA
+435,1,"P,G",PAY,Payment Source,437,3,Self-Pay,NA
+435,1,"P,G",PAY,Payment Source,437,4,Indian Health Service,NA
+435,1,"P,G",PAY,Payment Source,437,5,CHAMPUS/TRICARE,NA
+435,1,"P,G",PAY,Payment Source,437,6,"Other Government (Federal, State, Local)",NA
+435,1,"P,G",PAY,Payment Source,437,8,Other,NA
+435,1,"P,G",PAY,Payment Source,437,9,Unknown,NA
+436,1,"P,G",PAY_REC,Payment Recode,438,1,Medicaid,NA
+436,1,"P,G",PAY_REC,Payment Recode,438,2,Private Insurance,NA
+436,1,"P,G",PAY_REC,Payment Recode,438,3,Self Pay,NA
+436,1,"P,G",PAY_REC,Payment Recode,438,4,Other,NA
+436,1,"P,G",PAY_REC,Payment Recode,438,9,Unknown,NA
+437,1,"P,G",F_PAY,Reporting Flag for Source of Payment,NA,NA,See footnote,NA
+438,1,"P,G",F_PAY_REC,Reporting Flag for Payment Recode,NA,NA,See footnote,NA
+439-443,5,NA,FILLER40,Filler,NA,Blank,NA,NA
+444-445,2,"P,G",APGAR5,Five Minute APGAR Score,447,00-10,A score of 0-10,NA
+444-445,2,"P,G",APGAR5,Five Minute APGAR Score,447,99,Unknown or not stated,NA
+446,1,"P,G",APGAR5R,Five Minute APGAR Recode,447,1,A score of 0-3,NA
+446,1,"P,G",APGAR5R,Five Minute APGAR Recode,447,2,A score of 4-6,NA
+446,1,"P,G",APGAR5R,Five Minute APGAR Recode,447,3,A score of 7-8,NA
+446,1,"P,G",APGAR5R,Five Minute APGAR Recode,447,4,A score of 9-10,NA
+446,1,"P,G",APGAR5R,Five Minute APGAR Recode,447,5,Unknown or not stated,NA
+447,1,"P,G",F_APGAR5,Reporting Flag for Five minute APGAR,NA,NA,See footnote,NA
+448-449,2,"P,G",APGAR10,"Ten Minute APGAR Score
+Use reporting flag in field 126 for 2018",NA,00-10,A score of 0-10,NA
+448-449,2,"P,G",APGAR10,"Ten Minute APGAR Score
+Use reporting flag in field 126 for 2018",NA,88,Not applicable,NA
+448-449,2,"P,G",APGAR10,"Ten Minute APGAR Score
+Use reporting flag in field 126 for 2018",NA,99,Unknown or not stated,NA
+450,1,"P,G",APGAR10R,"Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,1,A score of 0-3,NA
+450,1,"P,G",APGAR10R,"Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,2,A score of 4-6,NA
+450,1,"P,G",APGAR10R,"Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,3,A score of 7-8,NA
+450,1,"P,G",APGAR10R,"Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,4,A score of 9-10,NA
+450,1,"P,G",APGAR10R,"Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,5,Not stated/not applicable,NA
+451-453,1,NA,FILLER41,Filler,NA,Blank,NA,NA
+454,1,"P,G",DPLURAL,Plurality Recode,NA,1,Single,NA
+454,1,"P,G",DPLURAL,Plurality Recode,NA,2,Twin,NA
+454,1,"P,G",DPLURAL,Plurality Recode,NA,3,Triplet,NA
+454,1,"P,G",DPLURAL,Plurality Recode,NA,4,Quadruplet,NA
+454,1,"P,G",DPLURAL,Plurality Recode,NA,5,Quintuplet or higher,NA
+455,1,NA,FILLER42,Filler,NA,Blank,NA,NA
+456,1,"P,G",IMP_PLUR,Plurality Imputed,NA,Blank,Plurality is imputed,NA
+456,1,"P,G",IMP_PLUR,Plurality Imputed,NA,1,Plurality is not imputed,NA
+457-458,2,NA,FILLER43,Filler,NA,Blank,NA,NA
+459,1,"P,G",SETORDER_R,Set Order Recode 126,NA,1,1st,NA
+459,1,"P,G",SETORDER_R,Set Order Recode 126,NA,2,2nd,NA
+459,1,"P,G",SETORDER_R,Set Order Recode 126,NA,3,3rd,NA
+459,1,"P,G",SETORDER_R,Set Order Recode 126,NA,4,4th,NA
+459,1,"P,G",SETORDER_R,Set Order Recode 126,NA,5,5th to 16th,NA
+459,1,"P,G",SETORDER_R,Set Order Recode 126,NA,9,Unknown or not stated,NA
+460-474,15,NA,FILLER44,Filler,NA,Blank,NA,NA
+475,1,"P,G",SEX,Sex of Infant,NA,M,Male,NA
+475,1,"P,G",SEX,Sex of Infant,NA,F,Female,NA
+476,1,"P,G",IMP_SEX,Imputed Sex,NA,Blank,Infant Sex not Imputed,NA
+476,1,"P,G",IMP_SEX,Imputed Sex,NA,1,Infant Sex is Imputed,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,01,January,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,02,February,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,03,March,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,04,April,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,05,May,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,06,June,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,07,July,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,08,August,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,09,September,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,10,October,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,11,November,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,12,December,NA
+477-478,2,"P,G",DLMP_MM,Last Normal Menses Month,NA,99,Unknown or not stated,NA
+479-480,2,NA,FILLER45,Filler,NA,Blank,NA,NA
+481-484,4,"P,G",DLMP_YY,Last Normal Menses Year,NA,nnnn,Year of last normal menses,NA
+481-484,4,"P,G",DLMP_YY,Last Normal Menses Year,NA,9999,Unknown or not stated,NA
+485-487,3,NA,FILLER46,Filler,NA,Blank,NA,NA
+487,1,NA,COMPGST_IMP,Computed Gestation Imputation Flag,NA,Blank,Computed Gestation is not imputed,NA
+487,1,NA,COMPGST_IMP,Computed Gestation Imputation Flag,NA,1,Computed Gestation is imputed,NA
+488,1,"P,G",COMBGST_IMP,Combined Gestation Imputed,NA,Blank,Combined Gestation is not imputed,NA
+488,1,"P,G",COMBGST_IMP,Combined Gestation Imputed,NA,1,Combined Gestation is imputed,NA
+489,1,"P,G",OBGEST_FLG,Obstetric Estimate of Gestation Used Flag,NA,Blank,Clinical Estimate is not used,NA
+489,1,"P,G",OBGEST_FLG,Obstetric Estimate of Gestation Used Flag,NA,1,Clinical Estimate is used,NA
+490-491,2,"P,G",COMBGEST,Combined Gestation – Detail in Weeks,NA,17-47,17th through 47th week of Gestation,NA
+490-491,2,"P,G",COMBGEST,Combined Gestation – Detail in Weeks,NA,99,Unknown,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,01,Under 20 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,02,20-27 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,03,28-31 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,04,32-33 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,05,34-36 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,06,37-38 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,07,39 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,08,40 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,09,41 weeks,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,10,42 weeks and over,NA
+492-493,2,"P,G",GESTREC10,Combined Gestation Recode 10,NA,99,Unknown,NA
+494,1,"P,G",GESTREC3,Combined Gestation Recode 3,NA,1,Under 37 weeks,NA
+494,1,"P,G",GESTREC3,Combined Gestation Recode 3,NA,2,37 weeks and over,NA
+494,1,"P,G",GESTREC3,Combined Gestation Recode 3,NA,3,Not stated,NA
+495-497,3,NA,FILLER47,Filler,NA,Blank,NA,NA
+498,1,"P,G",LMPUSED,Computed (LMP) Gestation Used Flag,NA,Blank,LMP not used for gestation,NA
+498,1,"P,G",LMPUSED,Computed (LMP) Gestation Used Flag,NA,1,LMP used for gestation,NA
+499-500,2,"P,G",OEGest_Comb,"Obstetric Estimate Edited
+(NCHS Standard item)",NA,17-47,Weeks of gestation,NA
+499-500,2,"P,G",OEGest_Comb,"Obstetric Estimate Edited
+(NCHS Standard item)",NA,99,Not stated,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,01,Under 20 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,02,20-27 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,03,28-31 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,04,32-33 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,05,34-36 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,06,37-38 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,07,39 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,08,40 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,09,41 weeks,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,10,42 weeks and over,NA
+501-502,2,"P,G",OEGest_R10,"Obstetric Estimate Recode10
+(NCHS Standard item)",NA,99,Unknown,NA
+503,1,"P,G",OEGest_R3,"Obstetric Estimate Recode 3
+(NCHS Standard Item)",NA,1,Under 37 weeks,NA
+503,1,"P,G",OEGest_R3,"Obstetric Estimate Recode 3
+(NCHS Standard Item)",NA,2,37 weeks and over,NA
+503,1,"P,G",OEGest_R3,"Obstetric Estimate Recode 3
+(NCHS Standard Item)",NA,3,Not stated,NA
+504-508,5,NA,FILLER48,FILLER,NA,Blank,NA,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,01,227 - 499 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,02,500 – 749 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,03,750 – 999 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,04,1000 - 1249 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,05,1250 – 1499 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,06,1500 – 1999 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,07,2000 – 2499 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,08,2500 – 2999 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,09,3000 – 3499 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,10,3500 – 3999 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,11,4000 – 4499 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,12,4500 – 4999 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,13,5000 – 8165 grams,NA
+509-510,2,"P,G",BWTR14,Birth Weight Recode 14,NA,14,Not Stated,NA
+511,1,"P,G",BWTR4,Birth Weight Recode 4,NA,1,227 - 1499 grams,NA
+511,1,"P,G",BWTR4,Birth Weight Recode 4,NA,2,1500 – 2499 grams,NA
+511,1,"P,G",BWTR4,Birth Weight Recode 4,NA,3,2500 - 8165 grams,NA
+511,1,"P,G",BWTR4,Birth Weight Recode 4,NA,4,Unknown or not stated,NA
+512-515,4,"P,G",BRTHWGT,Imputed Birth Weight,NA,0227-8165,Number of grams,NA
+512-515,4,"P,G",BRTHWGT,Imputed Birth Weight,NA,9999,Not stated birth weight,NA
+516,1,"P,G",BWTIMP,Birth Weight Imputed Flag,NA,Blank,Birth Weight is not imputed,NA
+516,1,"P,G",BWTIMP,Birth Weight Imputed Flag,NA,1,Birth Weight is imputed,NA
+517,1,"P,G",AB_AVEN1,Assisted Ventilation,524,Y,Yes,NA
+517,1,"P,G",AB_AVEN1,Assisted Ventilation,524,N,No,NA
+517,1,"P,G",AB_AVEN1,Assisted Ventilation,524,U,Unknown or not stated,NA
+518,1,"P,G",AB_AVEN6,Assisted Ventilation > 6 hrs,525,Y,Yes,NA
+518,1,"P,G",AB_AVEN6,Assisted Ventilation > 6 hrs,525,N,No,NA
+518,1,"P,G",AB_AVEN6,Assisted Ventilation > 6 hrs,525,U,Unknown or not stated,NA
+519,1,"P,G",AB_NICU,Admission to NICU,526,Y,Yes,NA
+519,1,"P,G",AB_NICU,Admission to NICU,526,N,No,NA
+519,1,"P,G",AB_NICU,Admission to NICU,526,U,Unknown or not stated,NA
+520,1,"P,G",AB_SURF,Surfactant,527,Y,Yes,NA
+520,1,"P,G",AB_SURF,Surfactant,527,N,No,NA
+520,1,"P,G",AB_SURF,Surfactant,527,U,Unknown or not stated,NA
+521,1,"P,G",AB_ANTI,Antibiotics,528,Y,Yes,NA
+521,1,"P,G",AB_ANTI,Antibiotics,528,N,No,NA
+521,1,"P,G",AB_ANTI,Antibiotics,528,U,Unknown or not stated,NA
+522,1,"P,G",AB_SEIZ,Seizures,529,Y,Yes,NA
+522,1,"P,G",AB_SEIZ,Seizures,529,N,No,NA
+522,1,"P,G",AB_SEIZ,Seizures,529,U,Unknown or not stated,NA
+523,1,NA,FILLER50,Filler,NA,Blank,NA,NA
+524,1,"P,G",F_AB_AVEN1,Reporting Flag for Assisted Ventilation,NA,NA,See footnote,NA
+525,1,"P,G",F_AB_AVEN6,Reporting Flag for Assisted Ventilation >6 hrs,NA,NA,See footnote,NA
+526,1,"P,G",F_AB_NICU,Reporting Flag for Admission to NICU,NA,NA,See footnote,NA
+527,1,"P,G",F_AB_SURF,Reporting Flag for Surfactant,NA,NA,See footnote,NA
+528,1,"P,G",F_AB_ANTI,Reporting Flag for Antibiotics,NA,NA,See footnote,NA
+529,1,"P,G",F_AB_SEIZ,Reporting Flag for Seizures,NA,NA,See footnote,NA
+530,1,NA,FILLER51,Filler,NA,Blank,NA,NA
+531,1,"P,G",NO_ABNORM,No Abnormal Conditions Checked,126,1,True,NA
+531,1,"P,G",NO_ABNORM,No Abnormal Conditions Checked,126,0,False,NA
+531,1,"P,G",NO_ABNORM,No Abnormal Conditions Checked,126,9,Not Reported,NA
+532-536,5,NA,FILLER52,Filler,NA,Blank,NA,NA
+537,1,"P,G",CA_ANEN,Anencephaly,543,Y,Yes,NA
+537,1,"P,G",CA_ANEN,Anencephaly,543,N,No,NA
+537,1,"P,G",CA_ANEN,Anencephaly,543,U,Unknown or not stated,NA
+538,1,"P,G",CA_MNSB,Meningomyelocele / Spina Bifida,544,Y,Yes,NA
+538,1,"P,G",CA_MNSB,Meningomyelocele / Spina Bifida,544,N,No,NA
+538,1,"P,G",CA_MNSB,Meningomyelocele / Spina Bifida,544,U,Unknown or not stated,NA
+539,1,"P,G",CA_CCHD,Cyanotic Congenital Heart Disease,545,Y,Yes,NA
+539,1,"P,G",CA_CCHD,Cyanotic Congenital Heart Disease,545,N,No,NA
+539,1,"P,G",CA_CCHD,Cyanotic Congenital Heart Disease,545,U,Unknown or not stated,NA
+540,1,"P,G",CA_CDH,Congenital Diaphragmatic Hernia,546,Y,Yes,NA
+540,1,"P,G",CA_CDH,Congenital Diaphragmatic Hernia,546,N,No,NA
+540,1,"P,G",CA_CDH,Congenital Diaphragmatic Hernia,546,U,Unknown or not stated,NA
+541,1,"P,G",CA_OMPH,Omphalocele,547,Y,Yes,NA
+541,1,"P,G",CA_OMPH,Omphalocele,547,N,No,NA
+541,1,"P,G",CA_OMPH,Omphalocele,547,U,Unknown or not stated,NA
+542,1,"P,G",CA_GAST,Gastroschisis,548,Y,Yes,NA
+542,1,"P,G",CA_GAST,Gastroschisis,548,N,No,NA
+542,1,"P,G",CA_GAST,Gastroschisis,548,U,Unknown or not stated,NA
+543,1,"P,G",F_CA_ANEN,Reporting Flag for Anencephaly,NA,NA,See footnote,NA
+544,1,"P,G",F_CA_MNSB,Reporting Flag for Meningomyelocele/Spina Bifida,NA,NA,See footnote,NA
+545,1,"P,G",F_CA_CCHD,Reporting Flag for Cyanotic Congenital Heart Disease,NA,NA,See footnote,NA
+546,1,"P,G",F_CA_CDH,Reporting Flag for Congenital Diaphragmatic Hernia,NA,NA,See footnote,NA
+547,1,"P,G",F_CA_OMPH,Reporting Flag for Omphalocele,NA,NA,See footnote,NA
+548,1,"P,G",F_CA_GAST,Reporting Flag for Gastroschisis,NA,NA,See footnote,NA
+549,1,"P,G",CA_LIMB,Limb Reduction Defect,555,Y,Yes,NA
+549,1,"P,G",CA_LIMB,Limb Reduction Defect,555,N,No,NA
+549,1,"P,G",CA_LIMB,Limb Reduction Defect,555,U,Unknown or not stated,NA
+550,1,"P,G",CA_CLEFT,Cleft Lip w/ or w/o Cleft Palate,556,Y,Yes,NA
+550,1,"P,G",CA_CLEFT,Cleft Lip w/ or w/o Cleft Palate,556,N,No,NA
+550,1,"P,G",CA_CLEFT,Cleft Lip w/ or w/o Cleft Palate,556,U,Unknown or not stated,NA
+551,1,"P,G",CA_CLPAL,Cleft Palate alone,557,Y,Yes,NA
+551,1,"P,G",CA_CLPAL,Cleft Palate alone,557,N,No,NA
+551,1,"P,G",CA_CLPAL,Cleft Palate alone,557,U,Unknown or not stated,NA
+552,1,"P,G",CA_DOWN,Down Syndrome,558,C,Confirmed,NA
+552,1,"P,G",CA_DOWN,Down Syndrome,558,P,Pending,NA
+552,1,"P,G",CA_DOWN,Down Syndrome,558,N,No,NA
+552,1,"P,G",CA_DOWN,Down Syndrome,558,U,Unknown,NA
+553,1,"P,G",CA_DISOR,Suspected Chromosomal Disorder,559,C,Confirmed,NA
+553,1,"P,G",CA_DISOR,Suspected Chromosomal Disorder,559,P,Pending,NA
+553,1,"P,G",CA_DISOR,Suspected Chromosomal Disorder,559,N,No,NA
+553,1,"P,G",CA_DISOR,Suspected Chromosomal Disorder,559,U,Unknown,NA
+554,1,"P,G",CA_HYPO,Hypospadias,560,Y,"Yes, anomaly reported",NA
+554,1,"P,G",CA_HYPO,Hypospadias,560,N,"No, anomaly not reported",NA
+554,1,"P,G",CA_HYPO,Hypospadias,560,U,Unknown,NA
+555,1,"P,G",F_CA_LIMB,Reporting Flag for Limb Reduction Defect,NA,NA,See footnote,NA
+556,1,"P,G",F_CA_CLEFT,Reporting Flag for Cleft Lip with or without Cleft Palate,NA,NA,See footnote,NA
+557,1,"P,G",F_CA_CLPAL,Reporting Flag for Cleft Plate Alone,NA,NA,See footnote,NA
+558,1,"P,G",F_CA_DOWN,Reporting Flag for Down Syndrome,NA,NA,See footnote,NA
+559,1,"P,G",F_CA_DISOR,Reporting Flag for Suspected Chromosomal Disorder,NA,NA,See footnote,NA
+560,1,"P,G",F_CA_HYPO,Reporting Flag for Hypospadias,NA,NA,See footnote,NA
+561,1,"P,G",NO_CONGEN,No Congenital Anomalies Checked,126,1,True,NA
+561,1,"P,G",NO_CONGEN,No Congenital Anomalies Checked,126,0,False,NA
+561,1,"P,G",NO_CONGEN,No Congenital Anomalies Checked,126,9,Not Reported,NA
+562-566,5,NA,FILLER53,Filler,NA,Blank,NA,NA
+567,1,"P,G",ITRAN,Infant Transferred,126,Y,Yes,NA
+567,1,"P,G",ITRAN,Infant Transferred,126,N,No,NA
+567,1,"P,G",ITRAN,Infant Transferred,126,U,Unknown or not stated,NA
+568,1,"P,G",ILIVE,Infant Living at Time of Report,126,Y,Yes,NA
+568,1,"P,G",ILIVE,Infant Living at Time of Report,126,N,No,NA
+568,1,"P,G",ILIVE,Infant Living at Time of Report,126,U,Unknown or not stated,NA
+569,1,"P,G",BFED,Infant Being Breastfed,570,Y,Yes,NA
+569,1,"P,G",BFED,Infant Being Breastfed,570,N,No,NA
+569,1,"P,G",BFED,Infant Being Breastfed,570,U,Unknown or not stated,NA
+570,1,"P,G",F_BFED,Reporting Flag for Breastfed at Discharge,NA,NA,See footnote,NA
+571-1345,759,"P,G",FILLER54,Filler,NA,Blank,NA,NA
+1346,1,"P,G",FLGND,Match Status,NA,1,Record in both files,NA
+1346,1,"P,G",FLGND,Match Status,NA,Blank,Record not in both files,NA
