@@ -1,4 +1,5 @@
 library(tidyverse)
+library(gt)
 
 #linked cohort dataset joins
 b17d1718 <- denom2017 %>%
@@ -190,5 +191,19 @@ tbl2 <- bothd2 %>%
   mutate(bdi = fct_recode(bdi,"Infant mortality rate" = "imr")) %>%
   pivot_wider(values_from = n, names_from = bwt_tbl2) %>%
   select(c(Race,SEX,bdi,Total,everything())) %>%
+  #group_by(Race) %>%
+  ungroup() %>%
   arrange(Race, SEX, bdi)
 
+gt_tbl2 <- tbl2 %>%
+  gt(groupname_col = c("Race","SEX")) %>%
+  tab_header("Documentation Table 2 - Linked Cohort") %>%
+  cols_label(bdi = "") %>%
+  cols_move(columns = c("500-749","750-999"),
+            after = "<500") %>%
+  fmt_number(columns = !bdi,
+              rows = str_detect(bdi,"mortality", negate = T),
+             decimals = 0,
+              sep_mark = ",")
+
+gt_tbl2
