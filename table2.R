@@ -164,6 +164,8 @@ racesort <- c("All races",
               "Hispanic" )
 
 sexsort <- c("Both sexes","M","F")
+
+bdisort <- c("Live births","Infant deaths","imr")
   
 
 #put it all together
@@ -183,5 +185,10 @@ tbl2 <- bothd2 %>%
   mutate(Race = factor(Race, levels = racesort),
          SEX = factor(SEX, levels = sexsort)) %>%
   mutate(SEX = fct_recode(SEX, "Male" = "M", "Female" = "F")) %>%
-  select(c(1:3,5,4,6)) %>%
-  arrange(Race, SEX)
+  pivot_longer(c(4:6), names_to = "bdi", values_to = "n") %>%
+  mutate(bdi = factor(bdi, levels = bdisort)) %>%
+  mutate(bdi = fct_recode(bdi,"Infant mortality rate" = "imr")) %>%
+  pivot_wider(values_from = n, names_from = bwt_tbl2) %>%
+  select(c(Race,SEX,bdi,Total,everything())) %>%
+  arrange(Race, SEX, bdi)
+
