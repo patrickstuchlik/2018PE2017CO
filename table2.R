@@ -199,11 +199,16 @@ gt_tbl2 <- tbl2 %>%
   gt(groupname_col = c("Race","SEX")) %>%
   tab_header("Documentation Table 2 - Linked Cohort") %>%
   cols_label(bdi = "") %>%
+  cols_align(columns = "bdi", align = "left") %>%
   cols_move(columns = c("500-749","750-999"),
             after = "<500") %>%
   fmt_number(columns = !bdi,
               rows = str_detect(bdi,"mortality", negate = T),
              decimals = 0,
-              sep_mark = ",")
+              sep_mark = ",") %>%
+  fmt_missing(columns = everything(), missing_text = "") %>%
+  tab_source_note("Empty cells indicate either a) zero counts or b) infant mortality rate not calculated due to numerator count fewer than 20. Infant mortality rate calculated per 1,000 births.")
 
 gt_tbl2
+
+gtsave(gt_tbl2,"Table 2.html")
