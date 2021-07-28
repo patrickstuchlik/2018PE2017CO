@@ -1,0 +1,1139 @@
+﻿"Position","Len","File*","Field","Description","Flag Position","Values","Definition","Territory Only","Numerator Only"
+"1-7",1,NA,"FILLER01","Filler",NA,"Blank",NA,NA,FALSE
+"8",1,NA,"LATEREC","Late Record Flag",NA,"0, blank","Not late record",NA,FALSE
+"8",1,NA,"LATEREC","Late Record Flag",NA,"1","Late record",NA,FALSE
+"9-12",4,"P,G","DOB_YY","Birth Year",NA,"2017","2018",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"1","January",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"2","February",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"3","March",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"4","April",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"5","May",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"6","June",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"7","July",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"8","August",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"9","September",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"10","October",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"11","November",NA,FALSE
+"13-14",2,"P,G","DOB_MM","Birth Month",NA,"12","December",NA,FALSE
+"15-18",4,NA,"FILLER02","Filler",NA,"Blank",NA,NA,FALSE
+"19-22",4,"P,G","DOB_TT","Time of Birth",126,"0000-2359","Time of Birth",NA,FALSE
+"19-22",4,"P,G","DOB_TT","Time of Birth",126,"9999","Not Stated",NA,FALSE
+"23",1,"P,G","DOB_WK","Birth Day of Week",NA,"1","Sunday",NA,FALSE
+"23",1,"P,G","DOB_WK","Birth Day of Week",NA,"2","Monday",NA,FALSE
+"23",1,"P,G","DOB_WK","Birth Day of Week",NA,"3","Tuesday",NA,FALSE
+"23",1,"P,G","DOB_WK","Birth Day of Week",NA,"4","Wednesday",NA,FALSE
+"23",1,"P,G","DOB_WK","Birth Day of Week",NA,"5","Thursday",NA,FALSE
+"23",1,"P,G","DOB_WK","Birth Day of Week",NA,"6","Friday",NA,FALSE
+"23",1,"P,G","DOB_WK","Birth Day of Week",NA,"7","Saturday",NA,FALSE
+"24-31",8,NA,"FILLER03","Filler",NA,"Blank",NA,NA,FALSE
+"32",1,"P,G","BFACIL","Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,"1","Hospital",NA,FALSE
+"32",1,"P,G","BFACIL","Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,"2","Freestanding Birth Center",NA,FALSE
+"32",1,"P,G","BFACIL","Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,"3","Home (intended)",NA,FALSE
+"32",1,"P,G","BFACIL","Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,"4","Home (not intended)",NA,FALSE
+"32",1,"P,G","BFACIL","Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,"5","Home (unknown if intended)",NA,FALSE
+"32",1,"P,G","BFACIL","Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,"6","Clinic / Doctor’s Office",NA,FALSE
+"32",1,"P,G","BFACIL","Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,"7","Other",NA,FALSE
+"32",1,"P,G","BFACIL","Birth Place (Revised) 
+Revised data only.
+See field 1330 for national data.",33,"9","Unknown",NA,FALSE
+"33",1,"P,G","F_BFACIL","Reporting Flag for Birth Place",NA,"See footnote",NA,NA,FALSE
+"34-49",16,NA,"FILLER04","Filler",NA,"Blank",NA,NA,FALSE
+"50",1,"P,G","BFACIL3","Facility Recode",NA,"1","In Hospital",NA,FALSE
+"50",1,"P,G","BFACIL3","Facility Recode",NA,"2","Not in Hospital",NA,FALSE
+"50",1,"P,G","BFACIL3","Facility Recode",NA,"3","Unknown or Not Stated",NA,FALSE
+"51-72",22,NA,"FILLER05","Filler",NA,"Blank",NA,NA,FALSE
+"73",1,"P,G","MAGEIMP","Mother’s Age Imputed
+Due to missing data, age imputed.",NA,"Blank","Age not imputed",NA,FALSE
+"73",1,"P,G","MAGEIMP","Mother’s Age Imputed
+Due to missing data, age imputed.",NA,"1","Age imputed",NA,FALSE
+"74",1,"P,G","MAGEREP","Reported Age of Mother Used Flag
+Due to missing date of birth, reported age used.",NA,"Blank","Reported age not used",NA,FALSE
+"74",1,"P,G","MAGEREP","Reported Age of Mother Used Flag
+Due to missing date of birth, reported age used.",NA,"1","Reported age used",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"12","10 – 12 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"13","13 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"14","14 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"15","15 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"16","16 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"17","17 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"18","18 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"19","19 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"20","20 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"21","21 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"22","22 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"23","23 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"24","24 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"25","25 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"26","26 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"27","27 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"28","28 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"29","29 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"30","30 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"31","31 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"32","32 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"33","33 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"34","34 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"35","35 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"36","36 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"37","37 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"38","38 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"39","39 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"40","40 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"41","41 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"42","42 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"43","43 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"44","44 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"45","45 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"46","46 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"47","47 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"48","48 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"49","49 years",NA,FALSE
+"75-76",2,"P,G","MAGER","Mother’s Age Recode 41",NA,"50","50 years and over",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"01","Under 15 Years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"03","15 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"04","16 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"05","17 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"06","18 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"07","19 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"08","20-24 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"09","25-29 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"10","30-34 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"11","35-39 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"12","40-44 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"13","45-49 years",NA,FALSE
+"77-78",2,"P,G","MAGER14","Mother’s Age Recode 14",NA,"14","50-54 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"1","Under 15 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"2","15-19 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"3","20-24 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"4","25-29 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"5","30-34 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"6","35-39 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"7","40-44 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"8","45-49 years",NA,FALSE
+"79",1,"P,G","MAGER9","Mother’s Age Recode 9",NA,"9","50-54 years",NA,FALSE
+"80-83",2,NA,"FILLER06","Filler",NA,"Blank",NA,NA,FALSE
+"84",1,"P,G","MBSTATE_REC","Mother’s Nativity",NA,"1","Born in the U.S. (50 US States)",NA,FALSE
+"84",1,"P,G","MBSTATE_REC","Mother’s Nativity",NA,"2","Born outside the U.S. (includes possessions)",NA,FALSE
+"84",1,"P,G","MBSTATE_REC","Mother’s Nativity",NA,"3","Unknown or Not Stated",NA,FALSE
+"85-103",19,NA,"FILLER07","Filler",NA,"Blank",NA,NA,FALSE
+"104",1,"P,G","RESTATUS","Residence Status",NA,"1","RESIDENT: State and county of occurrence and residence are the same.",FALSE,FALSE
+"104",1,"P,G","RESTATUS","Residence Status",NA,"2","INTRASTATE NONRESIDENT: State of occurrence and residence are the same but county is different.",FALSE,FALSE
+"104",1,"P,G","RESTATUS","Residence Status",NA,"3","INTERSTATE NONRESIDENT: State of occurrence and residence are different but both are one of the 50 US states or District of Columbia.",FALSE,FALSE
+"104",1,"P,G","RESTATUS","Residence Status",NA,"4","FOREIGN RESIDENT: The state of residence is not one of the 50 US states or District of Columbia.",FALSE,FALSE
+"104",1,"P,G","RESTATUS","Residence Status",NA,"1","RESIDENT: State and county of occurrence and residence residence are the same.  (Unique to Guam, all US residents are considered residents of Guam and thus are assigned 1.)",TRUE,FALSE
+"104",1,"P,G","RESTATUS","Residence Status",NA,"2","INTRATERRITORY NONRESIDENT: Territory of occurrence and residence are the same but county is different.",TRUE,FALSE
+"104",1,"P,G","RESTATUS","Residence Status",NA,"2","INTERTERRITORY RESIDENT: Territory of occurrence and residence are different but both are US Territories.",TRUE,FALSE
+"104",1,"P,G","RESTATUS","Residence Status",NA,"3","FOREIGN RESIDENT: The residence is not a US Territory.",TRUE,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"01","White (only) [only one race reported]",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"02","Black (only)",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"03","AIAN (American Indian or Alaskan Native) (only)",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"04","Asian (only)",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"05","NHOPI (Native Hawaiian or Other Pacific Islander) (only)",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"06","Black and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"07","Black and AIAN",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"08","Black and Asian",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"09","Black and NHOPI",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"10","AIAN and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"11","AIAN and Asian",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"12","AIAN and NHOPI",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"13","Asian and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"14","Asian and NHOPI",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"15","NHOPI and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"16","Black, AIAN, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"17","Black, AIAN, and Asian",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"18","Black, AIAN, and NHOPI",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"19","Black, Asian, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"20","Black, Asian, and NHOPI",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"21","Black, NHOPI, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"22","AIAN, Asian, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"23","AIAN, NHOPI, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"24","AIAN, Asian, and NHOPI",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"25","Asian, NHOPI, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"26","Black, AIAN, Asian, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"27","Black, AIAN, Asian, and NHOPI",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"28","Black, AIAN, NHOPI, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"29","Black, Asian, NHOPI, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"30","AIAN, Asian, NHOPI, and White",NA,FALSE
+"105-106",2,"P,G","MRACE31","Mother’s Race Recode 31",NA,"31","Black, AIAN, Asian, NHOPI, and White",NA,FALSE
+"107",1,"P,G","MRACE6","Mother’s Race Recode 6",NA,"1","White (only)",NA,FALSE
+"107",1,"P,G","MRACE6","Mother’s Race Recode 6",NA,"2","Black (only)",NA,FALSE
+"107",1,"P,G","MRACE6","Mother’s Race Recode 6",NA,"3","AIAN (only)",NA,FALSE
+"107",1,"P,G","MRACE6","Mother’s Race Recode 6",NA,"4","Asian (only)",NA,FALSE
+"107",1,"P,G","MRACE6","Mother’s Race Recode 6",NA,"5","NHOPI (only)",NA,FALSE
+"107",1,"P,G","MRACE6","Mother’s Race Recode 6",NA,"6","More than one race",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"01","White (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"02","Black (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"03","AIAN (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"04","Asian Indian (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"05","Chinese (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"06","Filipino (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"07","Japanese (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"08","Korean (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"09","Vietnamese (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"10","Other Asian (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"11","Hawaiian (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"12","Guamanian (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"13","Samoan (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"14","Other Pacific Islander (only)",NA,FALSE
+"108-109",2,"P,G","MRACE15","Mother’s Race Recode 15",NA,"15","More than one race",NA,FALSE
+"110",1,"P,G","MBRACE","Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"1","White",FALSE,FALSE
+"110",1,"P,G","MBRACE","Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"2","Black",FALSE,FALSE
+"110",1,"P,G","MBRACE","Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"3","American Indian or Alaskan Native",FALSE,FALSE
+"110",1,"P,G","MBRACE","Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"4","Asian or Pacific Islander",FALSE,FALSE
+"110",1,"P,G","MBRACE","Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"1","White",TRUE,FALSE
+"110",1,"P,G","MBRACE","Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"2","Black",TRUE,FALSE
+"110",1,"P,G","MBRACE","Bridged Race Mother
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"0","Other (not classified as White or Black)",TRUE,FALSE
+"111",1,"P,G","MRACEIMP","Mother’s Race Imputed",NA,"Blank","Mother’s race not imputed",NA,FALSE
+"111",1,"P,G","MRACEIMP","Mother’s Race Imputed",NA,"1","Unknown race imputed",NA,FALSE
+"111",1,"P,G","MRACEIMP","Mother’s Race Imputed",NA,"2","All other races, formerly coded 09, imputed.",NA,FALSE
+"112-114",3,NA,"FILLER08","Filler",NA,"Blank",NA,NA,FALSE
+"115",1,"P,G","MHISP_R","Mother’s Hispanic Origin Recode",116,"0","Non-Hispanic",NA,FALSE
+"115",1,"P,G","MHISP_R","Mother’s Hispanic Origin Recode",116,"1","Mexican",NA,FALSE
+"115",1,"P,G","MHISP_R","Mother’s Hispanic Origin Recode",116,"2","Puerto Rican",NA,FALSE
+"115",1,"P,G","MHISP_R","Mother’s Hispanic Origin Recode",116,"3","Cuban",NA,FALSE
+"115",1,"P,G","MHISP_R","Mother’s Hispanic Origin Recode",116,"4","Central and South American",NA,FALSE
+"115",1,"P,G","MHISP_R","Mother’s Hispanic Origin Recode",116,"5","Other and Unknown Hispanic origin",NA,FALSE
+"115",1,"P,G","MHISP_R","Mother’s Hispanic Origin Recode",116,"9","Hispanic origin not stated",NA,FALSE
+"116",1,"P,G","F_MHISP","Reporting Flag for Mother’s Origin",NA,NA,"See footnote",NA,FALSE
+"117",1,"P,G","MRACEHISP","Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,"1","Non-Hispanic White (only)",NA,FALSE
+"117",1,"P,G","MRACEHISP","Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,"2","Non-Hispanic Black (only)",NA,FALSE
+"117",1,"P,G","MRACEHISP","Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,"3","Non-Hispanic AIAN (only)",NA,FALSE
+"117",1,"P,G","MRACEHISP","Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,"4","Non-Hispanic Asian (only)",NA,FALSE
+"117",1,"P,G","MRACEHISP","Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,"5","Non-Hispanic NHOPI (only)",NA,FALSE
+"117",1,"P,G","MRACEHISP","Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,"6","Non-Hispanic more than one race",NA,FALSE
+"117",1,"P,G","MRACEHISP","Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,"7","Hispanic",NA,FALSE
+"117",1,"P,G","MRACEHISP","Mother’s Race/Hispanic Origin
+Based on single/multiple-race (fields 105-106, 107, and 108-109); for coding to create bridged-race categories (field 110) see “Coding for bridge-race and Hispanic origin categories” in the Detailed Technical Notes.",NA,"8","Origin unknown or not stated",NA,FALSE
+"118",1,NA,"FILLER09","Filler",NA,"Blank",NA,NA,FALSE
+"119",1,"P,G","MAR_P","Paternity Acknowledged",123,"Y","Yes",NA,FALSE
+"119",1,"P,G","MAR_P","Paternity Acknowledged",123,"N","No",NA,FALSE
+"119",1,"P,G","MAR_P","Paternity Acknowledged",123,"U","Unknown",NA,FALSE
+"119",1,"P,G","MAR_P","Paternity Acknowledged",123,"V","Not Applicable",NA,FALSE
+"120",1,"P,G","DMAR","Marital Status",NA,"1","Married",FALSE,FALSE
+"120",1,"P,G","DMAR","Marital Status",NA,"2","Unmarried",FALSE,FALSE
+"120",1,"P,G","DMAR","Marital Status",NA,"9","Unknown, NS",FALSE,FALSE
+"120",1,"P,G","DMAR","Marital Status",NA,"1","Yes",TRUE,FALSE
+"120",1,"P,G","DMAR","Marital Status",NA,"2","Unmarried parents living together",TRUE,FALSE
+"120",1,"P,G","DMAR","Marital Status",NA,"3","Unmarried parents not living together",TRUE,FALSE
+"120",1,"P,G","DMAR","Marital Status",NA,"9","Unknown or not stated",TRUE,FALSE
+"121",1,"P,G","MAR_IMP","Mother’s Marital Status Imputed",NA,"Blank","Marital Status not imputed",NA,FALSE
+"121",1,"P,G","MAR_IMP","Mother’s Marital Status Imputed",NA,"1","Marital Status imputed",NA,FALSE
+"122",1,NA,"FILLER10","Filler",NA,"Blank",NA,NA,FALSE
+"123",1,"P,G","F_MAR_P","Reporting Flag for Paternity Acknowledged",NA,NA,"See footnote",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"1","8th grade or less",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"2","9th through 12th grade with no diploma",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"3","High school graduate or GED completed",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"4","Some college credit, but not a degree.",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"5","Associate degree (AA,AS)",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"6","Bachelor’s degree (BA, AB, BS)",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"7","Master’s degree (MA, MS, MEng, MEd, MSW, MBA)",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"8","Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",NA,FALSE
+"124",1,"P,G","MEDUC","Mother’s Education",NA,"9","Unknown",NA,FALSE
+"125",1,NA,"FILLER11","Filler",NA,"Blank",NA,NA,FALSE
+"126",1,"P,G","F_MEDUC","Reporting Flag for Education of Mother",NA,"See footnote",NA,NA,FALSE
+"127-141",15,NA,"FILLER11","Filler",NA,"Blank",NA,NA,FALSE
+"142",1,"P,G","FAGERPT_FLG","Father’s Reported Age Used",NA,"Blank","Father’s reported age not used",NA,FALSE
+"142",1,"P,G","FAGERPT_FLG","Father’s Reported Age Used",NA,"1","Father’s reported age used",NA,FALSE
+"143-146",4,NA,"FILLER12","Filler",NA,"Blank",NA,NA,FALSE
+"147-148",2,"P,G","FAGECOMB","Father’s Combined Age (Revised)",NA,"09-98","Father’s combined age in years",NA,FALSE
+"147-148",2,"P,G","FAGECOMB","Father’s Combined Age (Revised)",NA,"99","Unknown or not stated",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"01","Under 15 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"02","15-19 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"03","20-24 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"04","25-29 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"05","30-34 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"06","35-39 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"07","40-44 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"08","45-49 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"09","50-54 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"10","55-98 years",NA,FALSE
+"149-150",2,"P,G","FAGE11","Father’s Age Recode 11",NA,"11","Not stated",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"01","White (only) [only one race reported]",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"02","Black (only)",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"03","AIAN (American Indian or Alaskan Native) (only)",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"04","Asian (only)",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"05","NHOPI (Native Hawaiian or Other Pacific Islander) (only)",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"06","Black and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"07","Black and AIAN",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"08","Black and Asian",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"09","Black and NHOPI",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"10","AIAN and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"11","AIAN and Asian",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"12","AIAN and NHOPI",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"13","Asian and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"14","Asian and NHOPI",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"15","NHOPI and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"16","Black, AIAN, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"17","Black, AIAN, and Asian",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"18","Black, AIAN, and NHOPI",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"19","Black, Asian, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"20","Black, Asian, and NHOPI",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"21","Black, NHOPI, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"22","AIAN, Asian, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"23","AIAN, NHOPI, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"24","AIAN, Asian, and NHOPI",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"25","Asian, NHOPI, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"26","Black, AIAN, Asian, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"27","Black, AIAN, Asian, and NHOPI",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"28","Black, AIAN, NHOPI, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"29","Black, Asian, NHOPI, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"30","AIAN, Asian, NHOPI, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"31","Black, AIAN, Asian, NHOPI, and White",NA,FALSE
+"151-152",2,"P,G","FRACE31","Father’s Race Recode 31",NA,"99","Unknown or Not Stated",NA,FALSE
+"153",1,"P,G","FRACE6","Father’s Race Recode 6",NA,"1","White (only)",NA,FALSE
+"153",1,"P,G","FRACE6","Father’s Race Recode 6",NA,"2","Black (only)",NA,FALSE
+"153",1,"P,G","FRACE6","Father’s Race Recode 6",NA,"3","AIAN (only)",NA,FALSE
+"153",1,"P,G","FRACE6","Father’s Race Recode 6",NA,"4","Asian (only)",NA,FALSE
+"153",1,"P,G","FRACE6","Father’s Race Recode 6",NA,"5","NHOPI (only)",NA,FALSE
+"153",1,"P,G","FRACE6","Father’s Race Recode 6",NA,"6","More than one race",NA,FALSE
+"153",1,"P,G","FRACE6","Father’s Race Recode 6",NA,"9","Unknown or Not Stated",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"01","White (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"02","Black (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"03","AIAN (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"04","Asian Indian (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"05","Chinese (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"06","Filipino (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"07","Japanese (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"08","Korean (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"09","Vietnamese (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"10","Other Asian (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"11","Hawaiian (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"12","Guamanian (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"13","Samoan (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"14","Other Pacific Islander (only)",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"15","More than one race",NA,FALSE
+"154-155",2,"P,G","FRACE15","Father’s Race Recode 15",NA,"99","Unknown or Not Stated",NA,FALSE
+"156",1,"P,G","FBRACE","Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"1","White",FALSE,FALSE
+"156",1,"P,G","FBRACE","Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"2","Black",FALSE,FALSE
+"156",1,"P,G","FBRACE","Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"3","American Indian or Alaskan Native",FALSE,FALSE
+"156",1,"P,G","FBRACE","Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"4","Asian or Pacific Islander",FALSE,FALSE
+"156",1,"P,G","FBRACE","Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"1","White",TRUE,FALSE
+"156",1,"P,G","FBRACE","Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"2","Black",TRUE,FALSE
+"156",1,"P,G","FBRACE","Bridged Race Father
+Includes individuals reporting only one race and individuals reporting more than one race bridged to a single race.",NA,"0","Other (not classified as White or Black)",TRUE,FALSE
+"157-159",3,NA,"FILLER13","Filler",NA,"Blank",NA,NA,FALSE
+"160",1,"P,G","FHISP_R","Father’s Hispanic Origin Recode",161,"0","Non-Hispanic",NA,FALSE
+"160",1,"P,G","FHISP_R","Father’s Hispanic Origin Recode",161,"1","Mexican",NA,FALSE
+"160",1,"P,G","FHISP_R","Father’s Hispanic Origin Recode",161,"2","Puerto Rican",NA,FALSE
+"160",1,"P,G","FHISP_R","Father’s Hispanic Origin Recode",161,"3","Cuban",NA,FALSE
+"160",1,"P,G","FHISP_R","Father’s Hispanic Origin Recode",161,"4","Central and South American",NA,FALSE
+"160",1,"P,G","FHISP_R","Father’s Hispanic Origin Recode",161,"5","Other and Unknown Hispanic origin",NA,FALSE
+"160",1,"P,G","FHISP_R","Father’s Hispanic Origin Recode",161,"9","Hispanic origin not stated",NA,FALSE
+"161",1,"P,G","F_FHISP","Reporting Flag for Father’s Origin",NA,NA,"See footnote",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"1","Non-Hispanic White (only)",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"2","Non-Hispanic Black (only)",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"3","Non-Hispanic AIAN (only)",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"4","Non-Hispanic Asian (only)",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"5","Non-Hispanic NHOPI (only)",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"6","Non-Hispanic more than one race",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"7","Hispanic",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"8","Origin unknown or not stated",NA,FALSE
+"162",1,"P,G","FRACEHISP","Father’s Race/Hispanic Origin
+Based on single/multiple-race (fields 151-152,153, and 154-155); for coding to create bridged-race categories (field 156) see “Coding forbridge-race and Hispanic origin categories” in.the Detailed Technical Notes",NA,"9","Race unknown or not stated (Non-Hispanic)",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"1","8th grade or less",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"2","9th through 12th grade with no diploma",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"3","High school graduate or GED completed",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"4","Some college credit, but not a degree.",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"5","Associate degree (AA,AS)",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"6","Bachelor’s degree (BA, AB, BS)",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"7","Master’s degree (MA, MS, MEng, MEd, MSW, MBA)",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"8","Doctorate (PhD, EdD) or Professional Degree (MD, DDS, DVM, LLB, JD)",NA,FALSE
+"163",1,"P,G","FEDUC","Father’s Education 165",NA,"9","Unknown",NA,FALSE
+"164",1,NA,"FILLER14","Filler",NA,"Blank",NA,NA,FALSE
+"165",1,"P,G","F_FEDUC","Reporting Flag for Education of Father",NA,NA,"See footnote",NA,FALSE
+"166-170",5,NA,"FILLER15","Filler",NA,"Blank",NA,NA,FALSE
+"171-172",2,"P,G","PRIORLIVE","Prior Births Now Living",NA,"00-30","Number of children still living from previous live births",NA,FALSE
+"171-172",2,"P,G","PRIORLIVE","Prior Births Now Living",NA,"99","Unknown or not stated",NA,FALSE
+"173-174",2,"P,G","PRIORDEAD","Prior Births Now Dead",NA,"00-30","Number of children dead from previous live births",NA,FALSE
+"173-174",2,"P,G","PRIORDEAD","Prior Births Now Dead",NA,"99","Unknown or not stated",NA,FALSE
+"175-176",2,"P,G","PRIORTERM","Prior Terminations/Fetal Death",NA,"0-30","Number of terminations/fetal deaths",NA,FALSE
+"175-176",2,"P,G","PRIORTERM","Prior Terminations/Fetal Death",NA,"99","Unknown or not stated",NA,FALSE
+"177-178",2,NA,"FILLER16","Filler",NA,"Blank",NA,NA,FALSE
+"179",1,"P,G","LBO_REC","Live Birth Order Recode",NA,"1-7","Live birth order",NA,FALSE
+"179",1,"P,G","LBO_REC","Live Birth Order Recode",NA,"8","8 or more live births",NA,FALSE
+"179",1,"P,G","LBO_REC","Live Birth Order Recode",NA,"9","Unknown or not stated",NA,FALSE
+"180-181",2,NA,"FILLER17","Filler",NA,"Blank",NA,NA,FALSE
+"182",1,"P,G","TPO_REC","Total Pregnancy Order Recode",NA,"1-7","Total pregnancy order",NA,FALSE
+"182",1,"P,G","TPO_REC","Total Pregnancy Order Recode",NA,"8","8 or more total pregnanices",NA,FALSE
+"182",1,"P,G","TPO_REC","Total Pregnancy Order Recode",NA,"9","Unknown or not stated",NA,FALSE
+"183-197",15,NA,"FILLER18","Filler",NA,"Blank",NA,NA,FALSE
+"198-200",3,"P,G","ILLB_R","Interval of Last Live Birth Recode",126,"000-003","Plural delivery",NA,FALSE
+"198-200",3,"P,G","ILLB_R","Interval of Last Live Birth Recode",126,"004-300","Months since last live birth Not applicable / 1st live birth",NA,FALSE
+"198-200",3,"P,G","ILLB_R","Interval of Last Live Birth Recode",126,"888",NA,NA,FALSE
+"198-200",3,"P,G","ILLB_R","Interval of Last Live Birth Recode",126,"999","Unknown or not stated",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"00","Zero to 3 months (plural delivery)",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"01","4 to 11 months",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"02","12 to 17 months",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"03","18 to 23 months",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"04","24 to 35 months",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"05","36 to 47 months",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"06","48 to 59 months",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"07","60 to 71 months",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"08","72 months and over",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"88","Not applicable (1st live birth)",NA,FALSE
+"201-202",2,"P,G","ILLB_R11","Interval Since Last Live Birth Recode 11",126,"99","Unknown or not stated",NA,FALSE
+"203-205",3,NA,"FILLER19","Filler",NA,"Blank",NA,NA,FALSE
+"206-208",3,"P,G","ILOO_R","Interval Since Last Other Outcome Recode",126,"000-003","Plural delivery",NA,FALSE
+"206-208",3,"P,G","ILOO_R","Interval Since Last Other Outcome Recode",126,"004-300","Months since last other pregnancy outcome",NA,FALSE
+"206-208",3,"P,G","ILOO_R","Interval Since Last Other Outcome Recode",126,"888","Not applicable / 1st natality event",NA,FALSE
+"206-208",3,"P,G","ILOO_R","Interval Since Last Other Outcome Recode",126,"999","Unknown or not stated",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"00","Zero to 3 months (plural delivery)",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"01","4 to 11 months",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"02","12 to 17 months",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"03","18 to 23 months",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"04","24 to 35 months",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"05","36 to 47 months",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"06","48 to 59 months",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"07","60 to 71 months",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"08","72 months and over",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"88","Not applicable (1st natality event)",NA,FALSE
+"209-210",2,"P,G","ILOO_R11","Interval Since Last Other Outcome Recode 11",126,"99","Unknown or not stated",NA,FALSE
+"211-213",3,NA,"FILLER20","Filler",NA,"Blank",NA,NA,FALSE
+"214-216",3,"P,G","ILP_R","Interval Since Last Pregnancy Recode",126,"000-003","Plural delivery",NA,FALSE
+"214-216",3,"P,G","ILP_R","Interval Since Last Pregnancy Recode",126,"004-300","Months since last live birth",NA,FALSE
+"214-216",3,"P,G","ILP_R","Interval Since Last Pregnancy Recode",126,"888","Not applicable / no previous pregnancy",NA,FALSE
+"214-216",3,"P,G","ILP_R","Interval Since Last Pregnancy Recode",126,"999","Unknown or not stated",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"00","Zero to 3 months (plural delivery)",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"01","4 to 11 months",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"02","12 to 17 months",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"03","18 to 23 months",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"04","24 to 35 months",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"05","36 to 47 months",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"06","48 to 59 months",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"07","60 to 71 months",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"08","72 months and over",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"88","Not applicable (no previous pregnancy)",NA,FALSE
+"217-218",2,"P,G","ILP_R11","Interval Since Last Pregnancy Recode 11",126,"99","Unknown or not stated",NA,FALSE
+"219-223",5,NA,"FILLER21","Filler",NA,"Blank",NA,NA,FALSE
+"224-225",2,"P,G","PRECARE","Month Prenatal Care",226,"00","No prenatal care",NA,FALSE
+"224-225",2,"P,G","PRECARE","Month Prenatal Care",226,"01-10","Month prenatal care began",NA,FALSE
+"224-225",2,"P,G","PRECARE","Month Prenatal Care",226,"99","Unknown or not stated",NA,FALSE
+"226",1,"P,G","F_MPCB","Reporting Flag for Month Prenatal Care Began",NA,NA,"See footnote",NA,FALSE
+"227",1,"P,G","PRECARE5","Month Prenatal Care Began Recode",226,"1","1st to 3rd month",NA,FALSE
+"227",1,"P,G","PRECARE5","Month Prenatal Care Began Recode",226,"2","4th to 6th month",NA,FALSE
+"227",1,"P,G","PRECARE5","Month Prenatal Care Began Recode",226,"3","7th to final month",NA,FALSE
+"227",1,"P,G","PRECARE5","Month Prenatal Care Began Recode",226,"4","No prenatal care",NA,FALSE
+"227",1,"P,G","PRECARE5","Month Prenatal Care Began Recode",226,"5","Unknown or not stated",NA,FALSE
+"228-237",10,NA,"FILLER22","Filler",NA,"Blank",NA,NA,FALSE
+"238-239",2,"P,G","PREVIS","Number of Prenatal Visits (Revised)
+See field 242-243 for national data",NA,"00-98","Number of prenatal visits",NA,FALSE
+"238-239",2,"P,G","PREVIS","Number of Prenatal Visits (Revised)
+See field 242-243 for national data",NA,"99","Unknown or not stated",NA,FALSE
+"240-241",2,NA,"FILLER23","Filler",NA,"Blank",NA,NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"01","No visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"02","1 to 2 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"03","3 to 4 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"04","5 to 6 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"05","7 to 8 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"06","9 to 10 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"07","11 to 12 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"08","13 to 14 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"09","15 to 16 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"10","17 to 18 visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"11","19 or more visits",NA,FALSE
+"242-243",2,"P,G","PREVIS_REC","Number of Prenatal Visits Recode",244,"12","Unknown or not stated",NA,FALSE
+"244",1,"P,G","F_TPCV","Reporting Flag for Total Prenatal Care Visits",NA,NA,"See footnote",NA,FALSE
+"245-250",6,NA,"FILLER24","Filler",NA,"Blank",NA,NA,FALSE
+"251",1,"P,G","WIC","WIC",252,"Y","Yes",NA,FALSE
+"251",1,"P,G","WIC","WIC",252,"N","No",NA,FALSE
+"251",1,"P,G","WIC","WIC",252,"U","Unknown or not stated",NA,FALSE
+"252",1,"P,G","F_WIC","Reporting Flag for WIC",NA,"0","Non-Reporting",NA,FALSE
+"252",1,"P,G","F_WIC","Reporting Flag for WIC",NA,"1","Reporting",NA,FALSE
+"253-254",2,"P,G","CIG_0","Cigarettes Before Pregnancy",265,"00-97","Number of cigarettes daily",NA,FALSE
+"253-254",2,"P,G","CIG_0","Cigarettes Before Pregnancy",265,"98","98 or more cigarettes daily",NA,FALSE
+"253-254",2,"P,G","CIG_0","Cigarettes Before Pregnancy",265,"99","Unknown or not stated",NA,FALSE
+"255-256",2,"P,G","CIG_1","Cigarettes 1st Trimester",266,"00-97","Number of cigarettes daily",NA,FALSE
+"255-256",2,"P,G","CIG_1","Cigarettes 1st Trimester",266,"98","98 or more cigarettes daily",NA,FALSE
+"255-256",2,"P,G","CIG_1","Cigarettes 1st Trimester",266,"99","Unknown or not stated",NA,FALSE
+"257-258",2,"P,G","CIG_2","Cigarettes 2nd Trimester",267,"00-97","Number of cigarettes daily",NA,FALSE
+"257-258",2,"P,G","CIG_2","Cigarettes 2nd Trimester",267,"98","98 or more cigarettes daily",NA,FALSE
+"257-258",2,"P,G","CIG_2","Cigarettes 2nd Trimester",267,"99","Unknown or not stated",NA,FALSE
+"259-260",2,"P,G","CIG_3","Cigarettes 3rd Trimester",268,"00-97","Number of cigarettes daily",NA,FALSE
+"259-260",2,"P,G","CIG_3","Cigarettes 3rd Trimester",268,"98","98 or more cigarettes daily",NA,FALSE
+"259-260",2,"P,G","CIG_3","Cigarettes 3rd Trimester",268,"99","Unknown or not stated",NA,FALSE
+"261",1,"P,G","CIG0_R","Cigarettes Before Pregnancy Recode",265,"0","Nonsmoker",NA,FALSE
+"261",1,"P,G","CIG0_R","Cigarettes Before Pregnancy Recode",265,"1","1-5",NA,FALSE
+"261",1,"P,G","CIG0_R","Cigarettes Before Pregnancy Recode",265,"2","6-10",NA,FALSE
+"261",1,"P,G","CIG0_R","Cigarettes Before Pregnancy Recode",265,"3","11-20",NA,FALSE
+"261",1,"P,G","CIG0_R","Cigarettes Before Pregnancy Recode",265,"4","21-40",NA,FALSE
+"261",1,"P,G","CIG0_R","Cigarettes Before Pregnancy Recode",265,"5","41 or more",NA,FALSE
+"261",1,"P,G","CIG0_R","Cigarettes Before Pregnancy Recode",265,"6","Unknown or not stated",NA,FALSE
+"262",1,"P,G","CIG1_R","Cigarettes 1st Trimester Recode",266,"0","Nonsmoker",NA,FALSE
+"262",1,"P,G","CIG1_R","Cigarettes 1st Trimester Recode",266,"1","1-5",NA,FALSE
+"262",1,"P,G","CIG1_R","Cigarettes 1st Trimester Recode",266,"2","6-10",NA,FALSE
+"262",1,"P,G","CIG1_R","Cigarettes 1st Trimester Recode",266,"3","11-20",NA,FALSE
+"262",1,"P,G","CIG1_R","Cigarettes 1st Trimester Recode",266,"4","21-40",NA,FALSE
+"262",1,"P,G","CIG1_R","Cigarettes 1st Trimester Recode",266,"5","41 or more",NA,FALSE
+"262",1,"P,G","CIG1_R","Cigarettes 1st Trimester Recode",266,"6","Unknown or not stated",NA,FALSE
+"263",1,"P,G","CIG2_R","Cigarettes 2nd Trimester Recode",267,"0","Nonsmoker",NA,FALSE
+"263",1,"P,G","CIG2_R","Cigarettes 2nd Trimester Recode",267,"1","1-5",NA,FALSE
+"263",1,"P,G","CIG2_R","Cigarettes 2nd Trimester Recode",267,"2","6-10",NA,FALSE
+"263",1,"P,G","CIG2_R","Cigarettes 2nd Trimester Recode",267,"3","11-20",NA,FALSE
+"263",1,"P,G","CIG2_R","Cigarettes 2nd Trimester Recode",267,"4","21-40",NA,FALSE
+"263",1,"P,G","CIG2_R","Cigarettes 2nd Trimester Recode",267,"5","41 or more",NA,FALSE
+"263",1,"P,G","CIG2_R","Cigarettes 2nd Trimester Recode",267,"6","Unknown or not stated",NA,FALSE
+"264",1,"P,G","CIG3_R","Cigarettes 3rd Trimester Recode",268,"0","Nonsmoker",NA,FALSE
+"264",1,"P,G","CIG3_R","Cigarettes 3rd Trimester Recode",268,"1","1-5",NA,FALSE
+"264",1,"P,G","CIG3_R","Cigarettes 3rd Trimester Recode",268,"2","6-10",NA,FALSE
+"264",1,"P,G","CIG3_R","Cigarettes 3rd Trimester Recode",268,"3","11-20",NA,FALSE
+"264",1,"P,G","CIG3_R","Cigarettes 3rd Trimester Recode",268,"4","21-40",NA,FALSE
+"264",1,"P,G","CIG3_R","Cigarettes 3rd Trimester Recode",268,"5","41 or more",NA,FALSE
+"264",1,"P,G","CIG3_R","Cigarettes 3rd Trimester Recode",268,"6","Not stated / Not on certificate",NA,FALSE
+"265",1,"P,G","F_CIGS_0","Reporting Flag for Cigarettes before Pregnancy",NA,NA,"See footnote",NA,FALSE
+"266",1,"P,G","F_CIGS_1","Reporting Flag for Cigarettes 1st Trimester",NA,NA,"See footnote",NA,FALSE
+"267",1,"P,G","F_CIGS_2","Reporting Flag for Cigarettes 2nd Trimester",NA,NA,"See footnote",NA,FALSE
+"268",1,"P,G","F_CIGS_3","Reporting Flag for Cigarettes 3rd Trimester",NA,NA,"See footnote",NA,FALSE
+"269",1,"P,G","CIG_REC","Cigarette Recode (Revised)",270,"Y","Yes",NA,FALSE
+"269",1,"P,G","CIG_REC","Cigarette Recode (Revised)",270,"N","No",NA,FALSE
+"269",1,"P,G","CIG_REC","Cigarette Recode (Revised)",270,"U","Unknown or not stated",NA,FALSE
+"270",1,"P,G","F_TOBACO","Reporting Flag for Tobacco use",NA,NA,"See footnote",NA,FALSE
+"271-279",9,NA,"FILLER25","Filler",NA,"Blank",NA,NA,FALSE
+"280-281",2,"P,G","MHTR","Mother’s Height in Inches (Recode)",282,"30-78","Height in inches",NA,FALSE
+"280-281",2,"P,G","MHTR","Mother’s Height in Inches (Recode)",282,"99","Unknown or not stated",NA,FALSE
+"282",1,"P,G","F_M_HT","Reporting Flag for Mother’s Height",NA,NA,"See footnote",NA,FALSE
+"283-286",4,"P,G","BMI","BMI",282,"13.0-69.9","Body Mass Index",NA,FALSE
+"283-286",4,"P,G","BMI","BMI",282,"99.9","Unknown or not stated",NA,FALSE
+"287",1,"P,G","BMI_R","Body Mass Index Recode",282,"1","Underweight <18.5",NA,FALSE
+"287",1,"P,G","BMI_R","Body Mass Index Recode",282,"2","Normal 18.5-24.9",NA,FALSE
+"287",1,"P,G","BMI_R","Body Mass Index Recode",282,"3","Overweight 25.0-29.9",NA,FALSE
+"287",1,"P,G","BMI_R","Body Mass Index Recode",282,"4","Obesity I 35.0-39.9",NA,FALSE
+"287",1,"P,G","BMI_R","Body Mass Index Recode",282,"5","Obesity II 35.0-39.9",NA,FALSE
+"287",1,"P,G","BMI_R","Body Mass Index Recode",282,"6","Extreme Obesity III ≥ 40.0",NA,FALSE
+"287",1,"P,G","BMI_R","Body Mass Index Recode",282,"9","Unknown or not stated",NA,FALSE
+"288-291",4,NA,"FILLER26","Filler",NA,"Blank",NA,NA,FALSE
+"292-294",3,"P,G","PWgt_R","Pre-pregnancy Weight Recode",295,"075-375","Weight in pounds",NA,FALSE
+"292-294",3,"P,G","PWgt_R","Pre-pregnancy Weight Recode",295,"999","Unknown or not stated",NA,FALSE
+"295",1,"P,G","F_PWGT","Reporting Flag for Pre-pregnancy Weight",NA,NA,"See footnote",NA,FALSE
+"296-298",3,NA,"FILLER27","Filler",NA,"Blank",NA,NA,FALSE
+"299-301",3,"P,G","DWGT_R","Delivery Weight Recode",303,"100-400","Weight in pounds",NA,FALSE
+"299-301",3,"P,G","DWGT_R","Delivery Weight Recode",303,"999","Unknown or not stated",NA,FALSE
+"302",1,NA,"FILLER28","Filler",NA,"Blank",NA,NA,FALSE
+"303",1,"P,G","F_DWGT","Reporting Flag for Delivery Weight",NA,NA,"See footnote",NA,FALSE
+"304-305",2,"P,G","WTGAIN","Weight Gain",307,"00-97","Weight gain in pounds",NA,FALSE
+"304-305",2,"P,G","WTGAIN","Weight Gain",307,"98","98 pounds and over",NA,FALSE
+"304-305",2,"P,G","WTGAIN","Weight Gain",307,"99","Unknown or not stated",NA,FALSE
+"306",1,"P,G","WTGAIN_REC","Weight Gain Recode",307,"1","Less than 11 pounds",NA,FALSE
+"306",1,"P,G","WTGAIN_REC","Weight Gain Recode",307,"2","11 to 20 pounds",NA,FALSE
+"306",1,"P,G","WTGAIN_REC","Weight Gain Recode",307,"3","21 to 30 pounds",NA,FALSE
+"306",1,"P,G","WTGAIN_REC","Weight Gain Recode",307,"4","31 to 40 pounds",NA,FALSE
+"306",1,"P,G","WTGAIN_REC","Weight Gain Recode",307,"5","41 to 98 pounds",NA,FALSE
+"306",1,"P,G","WTGAIN_REC","Weight Gain Recode",307,"9","Unknown or not stated See footnote",NA,FALSE
+"307",1,"P,G","F_WTGAIN","Reporting Flag for Weight Gain",NA,NA,"See footnote",NA,FALSE
+"308-312",5,NA,"FILLER29","Filler",NA,"Blank",NA,NA,FALSE
+"313",1,"P,G","RF_PDIAB","Pre-pregnancy Diabetes",319,"Y","Yes",NA,FALSE
+"313",1,"P,G","RF_PDIAB","Pre-pregnancy Diabetes",319,"N","No",NA,FALSE
+"313",1,"P,G","RF_PDIAB","Pre-pregnancy Diabetes",319,"U","Unknown or not stated",NA,FALSE
+"314",1,"P,G","RF_GDIAB","Gestational Diabetes",320,"Y","Yes",NA,FALSE
+"314",1,"P,G","RF_GDIAB","Gestational Diabetes",320,"N","No",NA,FALSE
+"314",1,"P,G","RF_GDIAB","Gestational Diabetes",320,"U","Unknown or not stated",NA,FALSE
+"315",1,"P,G","RF_PHYPE","Pre-pregnancy Hypertension",321,"Y","Yes",NA,FALSE
+"315",1,"P,G","RF_PHYPE","Pre-pregnancy Hypertension",321,"N","No",NA,FALSE
+"315",1,"P,G","RF_PHYPE","Pre-pregnancy Hypertension",321,"U","Unknown or not stated",NA,FALSE
+"316",1,"P,G","RF_GHYPE","Gestational Hypertension",322,"Y","Yes",NA,FALSE
+"316",1,"P,G","RF_GHYPE","Gestational Hypertension",322,"N","No",NA,FALSE
+"316",1,"P,G","RF_GHYPE","Gestational Hypertension",322,"U","Unknown or not stated",NA,FALSE
+"317",1,"P,G","RF_EHYPE","Hypertension Eclampsia",323,"Y","Yes",NA,FALSE
+"317",1,"P,G","RF_EHYPE","Hypertension Eclampsia",323,"N","No",NA,FALSE
+"317",1,"P,G","RF_EHYPE","Hypertension Eclampsia",323,"U","Unknown or not stated",NA,FALSE
+"318",1,"P,G","RF_PPB","Previous Preterm Birth",324,"Y","Yes",NA,FALSE
+"318",1,"P,G","RF_PPB","Previous Preterm Birth",324,"N","No",NA,FALSE
+"318",1,"P,G","RF_PPB","Previous Preterm Birth",324,"U","Unknown or not stated",NA,FALSE
+"319",1,"P,G","F_RF_PDIAB","Reporting Flag for Pre-pregnancy Diabetes",NA,NA,"See footnote",NA,FALSE
+"320",1,"P,G","F_RF_GDIAB","Reporting Flag for Gestational Diabetes",NA,NA,"See footnote",NA,FALSE
+"321",1,"P,G","F_RF_PHYPE","Reporting Flag for Pre-pregnancy Hypertension",NA,NA,"See footnote",NA,FALSE
+"322",1,"P,G","F_RF_GHYPE","Reporting Flag for Gestational Hypertension",NA,NA,"See footnote",NA,FALSE
+"323",1,"P,G","F_RF_EHYPE","Reporting Flag for Hypertension Eclampsia",NA,NA,"See footnote",NA,FALSE
+"324",1,"P,G","F_RF_PPB","Reporting Flag for Previous Preterm Birth",NA,NA,"See footnote",NA,FALSE
+"325",1,"P,G","RF_INFT","Infertility Treatment
+Use reporting flag in field 319",328,"Y","Yes",NA,FALSE
+"325",1,"P,G","RF_INFT","Infertility Treatment
+Use reporting flag in field 319",328,"N","No",NA,FALSE
+"325",1,"P,G","RF_INFT","Infertility Treatment
+Use reporting flag in field 319",328,"U","Unknown or not stated",NA,FALSE
+"326",1,"P,G","RF_DRG","Fertility Enhancing Drugs",329,"Y","Yes",NA,FALSE
+"326",1,"P,G","RF_DRG","Fertility Enhancing Drugs",329,"N","No",NA,FALSE
+"326",1,"P,G","RF_DRG","Fertility Enhancing Drugs",329,"X","Not applicable",NA,FALSE
+"326",1,"P,G","RF_DRG","Fertility Enhancing Drugs",329,"U","Unknown or not stated",NA,FALSE
+"327",1,"P,G","RF_ART","Asst. Reproductive Technology",330,"Y","Yes",NA,FALSE
+"327",1,"P,G","RF_ART","Asst. Reproductive Technology",330,"N","No",NA,FALSE
+"327",1,"P,G","RF_ART","Asst. Reproductive Technology",330,"X","Not applicable",NA,FALSE
+"327",1,"P,G","RF_ART","Asst. Reproductive Technology",330,"U","Unknown or not stated",NA,FALSE
+"328",1,NA,"FILLER30","Filler",NA,"Blank",NA,NA,FALSE
+"329",1,"P,G","F_RF_DRG","Reporting Flag for Fertility Enhance Drugs",NA,NA,"See footnote",NA,FALSE
+"330",1,"P,G","F_RF_ART","Reporting Flag for Reproductive Technology",NA,NA,"See footnote",NA,FALSE
+"331",1,"P,G","RF_CESAR","Previous Cesareans",335,"Y","Yes",NA,FALSE
+"331",1,"P,G","RF_CESAR","Previous Cesareans",335,"N","No",NA,FALSE
+"331",1,"P,G","RF_CESAR","Previous Cesareans",335,"U","Unknown or not stated",NA,FALSE
+"332-333",2,"P,G","RF_CESARN","Number of Previous Cesareans",NA,"00","None",NA,FALSE
+"332-333",2,"P,G","RF_CESARN","Number of Previous Cesareans",336,"01-30","Number of previous cesareans",NA,FALSE
+"332-333",2,"P,G","RF_CESARN","Number of Previous Cesareans",336,"99","Unknown or not stated",NA,FALSE
+"334",1,NA,"FILLER30","Filler",NA,"Blank",NA,NA,FALSE
+"334",1,NA,"FILLER30","Filler",NA,NA,NA,NA,FALSE
+"335",1,"P,G","F_RF_CESAR","Reporting Flag for Previous Cesarean",NA,NA,"See footnote",NA,FALSE
+"336",1,"P,G","F_RF_NCESAR","Reporting Flag for Number of Previous Cesareans",NA,NA,"See footnote",NA,FALSE
+"337",1,"P,G","NO_RISKS","No Risk Factors Checked",126,"1","TRUE",NA,FALSE
+"337",1,"P,G","NO_RISKS","No Risk Factors Checked",126,"0","FALSE",NA,FALSE
+"337",1,"P,G","NO_RISKS","No Risk Factors Checked",126,"9","Not Reported",NA,FALSE
+"338-342",4,NA,"FILLER31","Filler",NA,"Blank",NA,NA,FALSE
+"343",1,"P,G","IP_GON","Gonorrhea",348,"Y","Yes",NA,FALSE
+"343",1,"P,G","IP_GON","Gonorrhea",348,"N","No",NA,FALSE
+"343",1,"P,G","IP_GON","Gonorrhea",348,"U","Unknown or not stated",NA,FALSE
+"344",1,"P,G","IP_SYPH","Syphilis",349,"Y","Yes",NA,FALSE
+"344",1,"P,G","IP_SYPH","Syphilis",349,"N","No",NA,FALSE
+"344",1,"P,G","IP_SYPH","Syphilis",349,"U","Unknown or not stated",NA,FALSE
+"345",1,"P,G","IP_CHLAM","Chlamydia",350,"Y","Yes",NA,FALSE
+"345",1,"P,G","IP_CHLAM","Chlamydia",350,"N","No",NA,FALSE
+"345",1,"P,G","IP_CHLAM","Chlamydia",350,"U","Unknown or not stated",NA,FALSE
+"346",1,"P,G","IP_HEPB","Hepatitis B",351,"Y","Yes",NA,FALSE
+"346",1,"P,G","IP_HEPB","Hepatitis B",351,"N","No",NA,FALSE
+"346",1,"P,G","IP_HEPB","Hepatitis B",351,"U","Unknown or not stated",NA,FALSE
+"347",1,"P,G","IP_HEPC","Hepatitis C",352,"Y","Yes",NA,FALSE
+"347",1,"P,G","IP_HEPC","Hepatitis C",352,"N","No",NA,FALSE
+"347",1,"P,G","IP_HEPC","Hepatitis C",352,"U","Unknown or not stated",NA,FALSE
+"348",1,"P,G","F_IP_GON","Reporting Flag for Gonorrhea",NA,NA,"See footnote",NA,FALSE
+"349",1,"P,G","F_IP_SYPH","Reporting Flag for Syphilis",NA,NA,"See footnote",NA,FALSE
+"350",1,"P,G","F_IP_CHLAM","Reporting Flag for Chlamydia",NA,NA,"See footnote",NA,FALSE
+"351",1,"P,G","F_IP_HEPB","Reporting Flag for Hepatitis B",NA,NA,"See footnote",NA,FALSE
+"352",1,"P,G","F_IP_HEPC","Reporting Flag for Hepatitis C",NA,NA,"See footnote",NA,FALSE
+"353",1,"P,G","NO_INFEC","No Infections Checked",126,"1","True",NA,FALSE
+"353",1,"P,G","NO_INFEC","No Infections Checked",126,"0","False",NA,FALSE
+"353",1,"P,G","NO_INFEC","No Infections Checked",126,"9","Not Reported",NA,FALSE
+"354-359",6,NA,"FILLER32","Filler",NA,"Blank",NA,NA,FALSE
+"360",1,"P,G","OB_SUCC","Successful External Cephalic Version",363,"Y","Yes",NA,FALSE
+"360",1,"P,G","OB_SUCC","Successful External Cephalic Version",363,"N","No",NA,FALSE
+"360",1,"P,G","OB_SUCC","Successful External Cephalic Version",363,"U","Unknown or not stated",NA,FALSE
+"361",1,"P,G","OB_FAIL","Failed External Cephalic Version",364,"Y","Yes",NA,FALSE
+"361",1,"P,G","OB_FAIL","Failed External Cephalic Version",364,"N","No",NA,FALSE
+"361",1,"P,G","OB_FAIL","Failed External Cephalic Version",364,"U","Unknown or not stated",NA,FALSE
+"362",1,NA,"FILLER33","Filler",NA,"Blank",NA,NA,FALSE
+"363",1,"P,G","F_OB_SUCC","Reporting Flag for Successful External Cephalic Version",NA,NA,"See footnote",NA,FALSE
+"364",1,"P,G","F_OB_FAIL","Reporting Flag for Failed External Cephalic Version",NA,NA,"See footnote",NA,FALSE
+"365-371",7,"P,G","CO_SEQNUM","Cohort Sequence Number",NA,"xxx,xxx-xxx,xxx",NA,NA,FALSE
+"372-375",4,"P,G","CO_DODYY","Cohort Year of Death",NA,"20XX",NA,NA,FALSE
+"376-382",7,"P,G","FILLER34","Filler",NA,"Blank",NA,NA,FALSE
+"383",1,"P,G","LD_INDL","Induction of Labor",389,"Y","Yes",NA,FALSE
+"383",1,"P,G","LD_INDL","Induction of Labor",389,"N","No",NA,FALSE
+"383",1,"P,G","LD_INDL","Induction of Labor",389,"U","Unknown or not stated",NA,FALSE
+"384",1,"P,G","LD_AUGM","Augmentation of Labor",390,"Y","Yes",NA,FALSE
+"384",1,"P,G","LD_AUGM","Augmentation of Labor",390,"N","No",NA,FALSE
+"384",1,"P,G","LD_AUGM","Augmentation of Labor",390,"U","Unknown or not stated",NA,FALSE
+"385",1,"P,G","LD_STER","Steroids",391,"Y","Yes",NA,FALSE
+"385",1,"P,G","LD_STER","Steroids",391,"N","No",NA,FALSE
+"385",1,"P,G","LD_STER","Steroids",391,"U","Unknown or not stated",NA,FALSE
+"386",1,"P,G","LD_ANTB","Antibiotics",392,"Y","Yes",NA,FALSE
+"386",1,"P,G","LD_ANTB","Antibiotics",392,"N","No",NA,FALSE
+"386",1,"P,G","LD_ANTB","Antibiotics",392,"U","Unknown or not stated",NA,FALSE
+"387",1,"P,G","LD_CHOR","Chorioamnionitis",393,"Y","Yes",NA,FALSE
+"387",1,"P,G","LD_CHOR","Chorioamnionitis",393,"N","No",NA,FALSE
+"387",1,"P,G","LD_CHOR","Chorioamnionitis",393,"U","Unknown or not stated",NA,FALSE
+"388",1,"P,G","LD_ANES","Anesthesia",394,"Y","Yes",NA,FALSE
+"388",1,"P,G","LD_ANES","Anesthesia",394,"N","No",NA,FALSE
+"388",1,"P,G","LD_ANES","Anesthesia",394,"U","Unknown or not stated",NA,FALSE
+"389",1,"P,G","F_LD_INDL","Reporting Flag for Induction of Labor",NA,NA,"See footnote",NA,FALSE
+"390",1,"P,G","F_LD_AUGM","Reporting Flag for Augmentation of Labor",NA,NA,"See footnote",NA,FALSE
+"391",1,"P,G","F_LD_STER","Reporting Flag for Steroids",NA,NA,"See footnote",NA,FALSE
+"392",1,"P,G","F_LD_ANTB","Reporting Flag for Antibiotics",NA,NA,"See footnote",NA,FALSE
+"393",1,"P,G","F_LD_CHOR","Reporting Flag for Chorioamnionitis",NA,NA,"See footnote",NA,FALSE
+"394",1,"P,G","F_LD_ANES","Reporting Flag for Anesthesia",NA,NA,"See footnote",NA,FALSE
+"395",1,"P,G","NO_LBRDLV","No Characteristics of Labor Checked",126,"1","True",NA,FALSE
+"395",1,"P,G","NO_LBRDLV","No Characteristics of Labor Checked",126,"0","False",NA,FALSE
+"395",1,"P,G","NO_LBRDLV","No Characteristics of Labor Checked",126,"9","Not Reported",NA,FALSE
+"396-400",5,NA,"FILLER35","Filler",NA,"Blank",NA,NA,FALSE
+"401",1,"P,G","ME_PRES","Fetal Presentation",404,"1","Cephalic",NA,FALSE
+"401",1,"P,G","ME_PRES","Fetal Presentation",404,"2","Breech",NA,FALSE
+"401",1,"P,G","ME_PRES","Fetal Presentation",404,"3","Other",NA,FALSE
+"401",1,"P,G","ME_PRES","Fetal Presentation",404,"9","Unknown or not stated",NA,FALSE
+"402",1,"P,G","ME_ROUT","Final Route & Method of Delivery",405,"1","Spontaneous",NA,FALSE
+"402",1,"P,G","ME_ROUT","Final Route & Method of Delivery",405,"2","Forceps",NA,FALSE
+"402",1,"P,G","ME_ROUT","Final Route & Method of Delivery",405,"3","Vacuum",NA,FALSE
+"402",1,"P,G","ME_ROUT","Final Route & Method of Delivery",405,"4","Cesarean",NA,FALSE
+"402",1,"P,G","ME_ROUT","Final Route & Method of Delivery",405,"9","Unknown or not stated",NA,FALSE
+"403",1,"P,G","ME_TRIAL","Trial of Labor Attempted",406,"Y","Yes",NA,FALSE
+"403",1,"P,G","ME_TRIAL","Trial of Labor Attempted",406,"N","No",NA,FALSE
+"403",1,"P,G","ME_TRIAL","Trial of Labor Attempted",406,"X","Not applicable",NA,FALSE
+"403",1,"P,G","ME_TRIAL","Trial of Labor Attempted",406,"U","Unknown or not stated",NA,FALSE
+"404",1,"P,G","F_ME_PRES","Reporting Flag for Fetal Presentation",NA,NA,"See footnote",NA,FALSE
+"405",1,"P,G","F_ME_ROUT","Reporting Flag for Final Route and Method of Delivery",NA,NA,"See footnote",NA,FALSE
+"406",1,"P,G","F_ME_TRIAL","Reporting Flag for Trial of Labor Attempted",NA,NA,"See footnote",NA,FALSE
+"407",1,"P,G","RDMETH_REC","Delivery Method Recode",409,"1","Vaginal (excludes vaginal after previous C-section)",NA,FALSE
+"407",1,"P,G","RDMETH_REC","Delivery Method Recode",409,"2","Vaginal after previous c-section",NA,FALSE
+"407",1,"P,G","RDMETH_REC","Delivery Method Recode",409,"3","Primary C-section",NA,FALSE
+"407",1,"P,G","RDMETH_REC","Delivery Method Recode",409,"4","Repeat C-section",NA,FALSE
+"407",1,"P,G","RDMETH_REC","Delivery Method Recode",409,"5","Vaginal (unknown if previous c-section)",NA,FALSE
+"407",1,"P,G","RDMETH_REC","Delivery Method Recode",409,"6","C-section (unknown if previous c-section)",NA,FALSE
+"407",1,"P,G","RDMETH_REC","Delivery Method Recode",409,"9","Not stated",NA,FALSE
+"408",1,"P,G","DMETH_REC","Delivery Method Recode Combined",NA,"1","Vaginal",NA,FALSE
+"408",1,"P,G","DMETH_REC","Delivery Method Recode Combined",NA,"2","C-Section",NA,FALSE
+"408",1,"P,G","DMETH_REC","Delivery Method Recode Combined",NA,"9","Unknown",NA,FALSE
+"409",1,"P,G","F_DMETH_REC","Reporting Flag for Method of Delivery Recode",NA,NA,"See footnote",NA,FALSE
+"410-414",5,NA,"FILLER36","Filler",NA,"Blank",NA,NA,FALSE
+"415",1,"P,G","MM_MTR","Maternal Transfusion",421,"Y","Yes",NA,FALSE
+"415",1,"P,G","MM_MTR","Maternal Transfusion",421,"N","No",NA,FALSE
+"415",1,"P,G","MM_MTR","Maternal Transfusion",421,"U","Unknown or not stated",NA,FALSE
+"416",1,"P,G","MM_PLAC","Perineal Laceration",422,"Y","Yes",NA,FALSE
+"416",1,"P,G","MM_PLAC","Perineal Laceration",422,"N","No",NA,FALSE
+"416",1,"P,G","MM_PLAC","Perineal Laceration",422,"U","Unknown or not stated",NA,FALSE
+"417",1,"P,G","MM_RUPT","Ruptured Uterus",423,"Y","Yes",NA,FALSE
+"417",1,"P,G","MM_RUPT","Ruptured Uterus",423,"N","No",NA,FALSE
+"417",1,"P,G","MM_RUPT","Ruptured Uterus",423,"U","Unknown or not stated",NA,FALSE
+"418",1,"P,G","MM_UHYST","Unplanned Hysterectomy",424,"Y","Yes",NA,FALSE
+"418",1,"P,G","MM_UHYST","Unplanned Hysterectomy",424,"N","No",NA,FALSE
+"418",1,"P,G","MM_UHYST","Unplanned Hysterectomy",424,"U","Unknown or not stated",NA,FALSE
+"419",1,"P,G","MM_AICU","Admit to Intensive Care",425,"Y","Yes",NA,FALSE
+"419",1,"P,G","MM_AICU","Admit to Intensive Care",425,"N","No",NA,FALSE
+"419",1,"P,G","MM_AICU","Admit to Intensive Care",425,"U","Unknown or not stated",NA,FALSE
+"420",1,NA,"FILLER37","Filler",NA,"Blank",NA,NA,FALSE
+"421",1,"P,G","F_MM_MTR","Reporting Flag for Maternal Transfusion",NA,NA,"See footnote",NA,FALSE
+"422",1,"P,G","F_MM_ PLAC","Reporting Flag for Perineal Laceration",NA,NA,"See footnote",NA,FALSE
+"423",1,"P,G","F_MM_RUPT","Reporting Flag for Ruptured Uterus",NA,NA,"See footnote",NA,FALSE
+"424",1,"P,G","F_MM_UHYST","Reporting Flag for Unplanned Hysterectomy",NA,NA,"See footnote",NA,FALSE
+"425",1,"P,G","F_MM_AICU","Reporting Flag for Admission to Intensive Care",NA,NA,"See footnote",NA,FALSE
+"426",1,NA,"FILLER38","Filler",NA,"Blank",NA,NA,FALSE
+"427",1,"P,G","NO_MMORB","No Maternal Morbidity Checked",126,"1","True",NA,FALSE
+"427",1,"P,G","NO_MMORB","No Maternal Morbidity Checked",126,"0","False",NA,FALSE
+"427",1,"P,G","NO_MMORB","No Maternal Morbidity Checked",126,"9","Not Reported",NA,FALSE
+"428-432",5,NA,"FILLER39","Filler",NA,"Blank",NA,NA,FALSE
+"433",1,"P,G","ATTEND","Attendant",NA,"1","Doctor of Medicine (MD)",NA,FALSE
+"433",1,"P,G","ATTEND","Attendant",NA,"2","Doctor of Osteopathy (DO)",NA,FALSE
+"433",1,"P,G","ATTEND","Attendant",NA,"3","Certified Nurse Midwife (CNM)",NA,FALSE
+"433",1,"P,G","ATTEND","Attendant",NA,"4","Other Midwife",NA,FALSE
+"433",1,"P,G","ATTEND","Attendant",NA,"5","Other",NA,FALSE
+"433",1,"P,G","ATTEND","Attendant",NA,"9","Unknown or not stated",NA,FALSE
+"434",1,"P,G","MTRAN","Mother Transferred",126,"Y","Yes",NA,FALSE
+"434",1,"P,G","MTRAN","Mother Transferred",126,"N","No",NA,FALSE
+"434",1,"P,G","MTRAN","Mother Transferred",126,"U","Unknown",NA,FALSE
+"435",1,"P,G","PAY","Payment Source",437,"1","Medicaid",NA,FALSE
+"435",1,"P,G","PAY","Payment Source",437,"2","Private Insurance",NA,FALSE
+"435",1,"P,G","PAY","Payment Source",437,"3","Self-Pay",NA,FALSE
+"435",1,"P,G","PAY","Payment Source",437,"4","Indian Health Service",NA,FALSE
+"435",1,"P,G","PAY","Payment Source",437,"5","CHAMPUS/TRICARE",NA,FALSE
+"435",1,"P,G","PAY","Payment Source",437,"6","Other Government (Federal, State, Local)",NA,FALSE
+"435",1,"P,G","PAY","Payment Source",437,"8","Other",NA,FALSE
+"435",1,"P,G","PAY","Payment Source",437,"9","Unknown",NA,FALSE
+"436",1,"P,G","PAY_REC","Payment Recode",438,"1","Medicaid",NA,FALSE
+"436",1,"P,G","PAY_REC","Payment Recode",438,"2","Private Insurance",NA,FALSE
+"436",1,"P,G","PAY_REC","Payment Recode",438,"3","Self Pay",NA,FALSE
+"436",1,"P,G","PAY_REC","Payment Recode",438,"4","Other",NA,FALSE
+"436",1,"P,G","PAY_REC","Payment Recode",438,"9","Unknown",NA,FALSE
+"437",1,"P,G","F_PAY","Reporting Flag for Source of Payment",NA,NA,"See footnote",NA,FALSE
+"438",1,"P,G","F_PAY_REC","Reporting Flag for Payment Recode",NA,NA,"See footnote",NA,FALSE
+"439-443",5,NA,"FILLER40","Filler",NA,"Blank",NA,NA,FALSE
+"444-445",2,"P,G","APGAR5","Five Minute APGAR Score",447,"00-10","A score of 0-10",NA,FALSE
+"444-445",2,"P,G","APGAR5","Five Minute APGAR Score",447,"99","Unknown or not stated",NA,FALSE
+"446",1,"P,G","APGAR5R","Five Minute APGAR Recode",447,"1","A score of 0-3",NA,FALSE
+"446",1,"P,G","APGAR5R","Five Minute APGAR Recode",447,"2","A score of 4-6",NA,FALSE
+"446",1,"P,G","APGAR5R","Five Minute APGAR Recode",447,"3","A score of 7-8",NA,FALSE
+"446",1,"P,G","APGAR5R","Five Minute APGAR Recode",447,"4","A score of 9-10",NA,FALSE
+"446",1,"P,G","APGAR5R","Five Minute APGAR Recode",447,"5","Unknown or not stated",NA,FALSE
+"447",1,"P,G","F_APGAR5","Reporting Flag for Five minute APGAR",NA,NA,"See footnote",NA,FALSE
+"448-449",2,"P,G","APGAR10","Ten Minute APGAR Score
+Use reporting flag in field 126 for 2018",NA,"00-10","A score of 0-10",NA,FALSE
+"448-449",2,"P,G","APGAR10","Ten Minute APGAR Score
+Use reporting flag in field 126 for 2018",NA,"88","Not applicable",NA,FALSE
+"448-449",2,"P,G","APGAR10","Ten Minute APGAR Score
+Use reporting flag in field 126 for 2018",NA,"99","Unknown or not stated",NA,FALSE
+"450",1,"P,G","APGAR10R","Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,"1","A score of 0-3",NA,FALSE
+"450",1,"P,G","APGAR10R","Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,"2","A score of 4-6",NA,FALSE
+"450",1,"P,G","APGAR10R","Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,"3","A score of 7-8",NA,FALSE
+"450",1,"P,G","APGAR10R","Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,"4","A score of 9-10",NA,FALSE
+"450",1,"P,G","APGAR10R","Ten Minute APGAR Recode
+Use reporting flag in field 126 for 2018",NA,"5","Not stated/not applicable",NA,FALSE
+"451-453",1,NA,"FILLER41","Filler",NA,"Blank",NA,NA,FALSE
+"454",1,"P,G","DPLURAL","Plurality Recode",NA,"1","Single",NA,FALSE
+"454",1,"P,G","DPLURAL","Plurality Recode",NA,"2","Twin",NA,FALSE
+"454",1,"P,G","DPLURAL","Plurality Recode",NA,"3","Triplet",NA,FALSE
+"454",1,"P,G","DPLURAL","Plurality Recode",NA,"4","Quadruplet",NA,FALSE
+"454",1,"P,G","DPLURAL","Plurality Recode",NA,"5","Quintuplet or higher",NA,FALSE
+"455",1,NA,"FILLER42","Filler",NA,"Blank",NA,NA,FALSE
+"456",1,"P,G","IMP_PLUR","Plurality Imputed",NA,"Blank","Plurality is imputed",NA,FALSE
+"456",1,"P,G","IMP_PLUR","Plurality Imputed",NA,"1","Plurality is not imputed",NA,FALSE
+"457-458",2,NA,"FILLER43","Filler",NA,"Blank",NA,NA,FALSE
+"459",1,"P,G","SETORDER_R","Set Order Recode 126",NA,"1","1st",NA,FALSE
+"459",1,"P,G","SETORDER_R","Set Order Recode 126",NA,"2","2nd",NA,FALSE
+"459",1,"P,G","SETORDER_R","Set Order Recode 126",NA,"3","3rd",NA,FALSE
+"459",1,"P,G","SETORDER_R","Set Order Recode 126",NA,"4","4th",NA,FALSE
+"459",1,"P,G","SETORDER_R","Set Order Recode 126",NA,"5","5th to 16th",NA,FALSE
+"459",1,"P,G","SETORDER_R","Set Order Recode 126",NA,"9","Unknown or not stated",NA,FALSE
+"460-474",15,NA,"FILLER44","Filler",NA,"Blank",NA,NA,FALSE
+"475",1,"P,G","SEX","Sex of Infant",NA,"M","Male",NA,FALSE
+"475",1,"P,G","SEX","Sex of Infant",NA,"F","Female",NA,FALSE
+"476",1,"P,G","IMP_SEX","Imputed Sex",NA,"Blank","Infant Sex not Imputed",NA,FALSE
+"476",1,"P,G","IMP_SEX","Imputed Sex",NA,"1","Infant Sex is Imputed",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"01","January",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"02","February",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"03","March",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"04","April",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"05","May",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"06","June",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"07","July",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"08","August",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"09","September",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"10","October",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"11","November",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"12","December",NA,FALSE
+"477-478",2,"P,G","DLMP_MM","Last Normal Menses Month",NA,"99","Unknown or not stated",NA,FALSE
+"479-480",2,NA,"FILLER45","Filler",NA,"Blank",NA,NA,FALSE
+"481-484",4,"P,G","DLMP_YY","Last Normal Menses Year",NA,"nnnn","Year of last normal menses",NA,FALSE
+"481-484",4,"P,G","DLMP_YY","Last Normal Menses Year",NA,"9999","Unknown or not stated",NA,FALSE
+"485-487",3,NA,"FILLER46","Filler",NA,"Blank",NA,NA,FALSE
+"487",1,NA,"COMPGST_IMP","Computed Gestation Imputation Flag",NA,"Blank","Computed Gestation is not imputed",NA,FALSE
+"487",1,NA,"COMPGST_IMP","Computed Gestation Imputation Flag",NA,"1","Computed Gestation is imputed",NA,FALSE
+"488",1,"P,G","COMBGST_IMP","Combined Gestation Imputed",NA,"Blank","Combined Gestation is not imputed",NA,FALSE
+"488",1,"P,G","COMBGST_IMP","Combined Gestation Imputed",NA,"1","Combined Gestation is imputed",NA,FALSE
+"489",1,"P,G","OBGEST_FLG","Obstetric Estimate of Gestation Used Flag",NA,"Blank","Clinical Estimate is not used",NA,FALSE
+"489",1,"P,G","OBGEST_FLG","Obstetric Estimate of Gestation Used Flag",NA,"1","Clinical Estimate is used",NA,FALSE
+"490-491",2,"P,G","COMBGEST","Combined Gestation – Detail in Weeks",NA,"17-47","17th through 47th week of Gestation",NA,FALSE
+"490-491",2,"P,G","COMBGEST","Combined Gestation – Detail in Weeks",NA,"99","Unknown",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"01","Under 20 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"02","20-27 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"03","28-31 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"04","32-33 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"05","34-36 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"06","37-38 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"07","39 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"08","40 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"09","41 weeks",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"10","42 weeks and over",NA,FALSE
+"492-493",2,"P,G","GESTREC10","Combined Gestation Recode 10",NA,"99","Unknown",NA,FALSE
+"494",1,"P,G","GESTREC3","Combined Gestation Recode 3",NA,"1","Under 37 weeks",NA,FALSE
+"494",1,"P,G","GESTREC3","Combined Gestation Recode 3",NA,"2","37 weeks and over",NA,FALSE
+"494",1,"P,G","GESTREC3","Combined Gestation Recode 3",NA,"3","Not stated",NA,FALSE
+"495-497",3,NA,"FILLER47","Filler",NA,"Blank",NA,NA,FALSE
+"498",1,"P,G","LMPUSED","Computed (LMP) Gestation Used Flag",NA,"Blank","LMP not used for gestation",NA,FALSE
+"498",1,"P,G","LMPUSED","Computed (LMP) Gestation Used Flag",NA,"1","LMP used for gestation",NA,FALSE
+"499-500",2,"P,G","OEGest_Comb","Obstetric Estimate Edited
+(NCHS Standard item)",NA,"17-47","Weeks of gestation",NA,FALSE
+"499-500",2,"P,G","OEGest_Comb","Obstetric Estimate Edited
+(NCHS Standard item)",NA,"99","Not stated",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"01","Under 20 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"02","20-27 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"03","28-31 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"04","32-33 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"05","34-36 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"06","37-38 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"07","39 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"08","40 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"09","41 weeks",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"10","42 weeks and over",NA,FALSE
+"501-502",2,"P,G","OEGest_R10","Obstetric Estimate Recode10
+(NCHS Standard item)",NA,"99","Unknown",NA,FALSE
+"503",1,"P,G","OEGest_R3","Obstetric Estimate Recode 3
+(NCHS Standard Item)",NA,"1","Under 37 weeks",NA,FALSE
+"503",1,"P,G","OEGest_R3","Obstetric Estimate Recode 3
+(NCHS Standard Item)",NA,"2","37 weeks and over",NA,FALSE
+"503",1,"P,G","OEGest_R3","Obstetric Estimate Recode 3
+(NCHS Standard Item)",NA,"3","Not stated",NA,FALSE
+"504-508",5,NA,"FILLER48","FILLER",NA,"Blank",NA,NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"01","227 - 499 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"02","500 – 749 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"03","750 – 999 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"04","1000 - 1249 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"05","1250 – 1499 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"06","1500 – 1999 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"07","2000 – 2499 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"08","2500 – 2999 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"09","3000 – 3499 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"10","3500 – 3999 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"11","4000 – 4499 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"12","4500 – 4999 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"13","5000 – 8165 grams",NA,FALSE
+"509-510",2,"P,G","BWTR14","Birth Weight Recode 14",NA,"14","Not Stated",NA,FALSE
+"511",1,"P,G","BWTR4","Birth Weight Recode 4",NA,"1","227 - 1499 grams",NA,FALSE
+"511",1,"P,G","BWTR4","Birth Weight Recode 4",NA,"2","1500 – 2499 grams",NA,FALSE
+"511",1,"P,G","BWTR4","Birth Weight Recode 4",NA,"3","2500 - 8165 grams",NA,FALSE
+"511",1,"P,G","BWTR4","Birth Weight Recode 4",NA,"4","Unknown or not stated",NA,FALSE
+"512-515",4,"P,G","BRTHWGT","Imputed Birth Weight",NA,"0227-8165","Number of grams",NA,FALSE
+"512-515",4,"P,G","BRTHWGT","Imputed Birth Weight",NA,"9999","Not stated birth weight",NA,FALSE
+"516",1,"P,G","BWTIMP","Birth Weight Imputed Flag",NA,"Blank","Birth Weight is not imputed",NA,FALSE
+"516",1,"P,G","BWTIMP","Birth Weight Imputed Flag",NA,"1","Birth Weight is imputed",NA,FALSE
+"517",1,"P,G","AB_AVEN1","Assisted Ventilation",524,"Y","Yes",NA,FALSE
+"517",1,"P,G","AB_AVEN1","Assisted Ventilation",524,"N","No",NA,FALSE
+"517",1,"P,G","AB_AVEN1","Assisted Ventilation",524,"U","Unknown or not stated",NA,FALSE
+"518",1,"P,G","AB_AVEN6","Assisted Ventilation > 6 hrs",525,"Y","Yes",NA,FALSE
+"518",1,"P,G","AB_AVEN6","Assisted Ventilation > 6 hrs",525,"N","No",NA,FALSE
+"518",1,"P,G","AB_AVEN6","Assisted Ventilation > 6 hrs",525,"U","Unknown or not stated",NA,FALSE
+"519",1,"P,G","AB_NICU","Admission to NICU",526,"Y","Yes",NA,FALSE
+"519",1,"P,G","AB_NICU","Admission to NICU",526,"N","No",NA,FALSE
+"519",1,"P,G","AB_NICU","Admission to NICU",526,"U","Unknown or not stated",NA,FALSE
+"520",1,"P,G","AB_SURF","Surfactant",527,"Y","Yes",NA,FALSE
+"520",1,"P,G","AB_SURF","Surfactant",527,"N","No",NA,FALSE
+"520",1,"P,G","AB_SURF","Surfactant",527,"U","Unknown or not stated",NA,FALSE
+"521",1,"P,G","AB_ANTI","Antibiotics",528,"Y","Yes",NA,FALSE
+"521",1,"P,G","AB_ANTI","Antibiotics",528,"N","No",NA,FALSE
+"521",1,"P,G","AB_ANTI","Antibiotics",528,"U","Unknown or not stated",NA,FALSE
+"522",1,"P,G","AB_SEIZ","Seizures",529,"Y","Yes",NA,FALSE
+"522",1,"P,G","AB_SEIZ","Seizures",529,"N","No",NA,FALSE
+"522",1,"P,G","AB_SEIZ","Seizures",529,"U","Unknown or not stated",NA,FALSE
+"523",1,NA,"FILLER50","Filler",NA,"Blank",NA,NA,FALSE
+"524",1,"P,G","F_AB_AVEN1","Reporting Flag for Assisted Ventilation",NA,NA,"See footnote",NA,FALSE
+"525",1,"P,G","F_AB_AVEN6","Reporting Flag for Assisted Ventilation >6 hrs",NA,NA,"See footnote",NA,FALSE
+"526",1,"P,G","F_AB_NICU","Reporting Flag for Admission to NICU",NA,NA,"See footnote",NA,FALSE
+"527",1,"P,G","F_AB_SURF","Reporting Flag for Surfactant",NA,NA,"See footnote",NA,FALSE
+"528",1,"P,G","F_AB_ANTI","Reporting Flag for Antibiotics",NA,NA,"See footnote",NA,FALSE
+"529",1,"P,G","F_AB_SEIZ","Reporting Flag for Seizures",NA,NA,"See footnote",NA,FALSE
+"530",1,NA,"FILLER51","Filler",NA,"Blank",NA,NA,FALSE
+"531",1,"P,G","NO_ABNORM","No Abnormal Conditions Checked",126,"1","True",NA,FALSE
+"531",1,"P,G","NO_ABNORM","No Abnormal Conditions Checked",126,"0","False",NA,FALSE
+"531",1,"P,G","NO_ABNORM","No Abnormal Conditions Checked",126,"9","Not Reported",NA,FALSE
+"532-536",5,NA,"FILLER52","Filler",NA,"Blank",NA,NA,FALSE
+"537",1,"P,G","CA_ANEN","Anencephaly",543,"Y","Yes",NA,FALSE
+"537",1,"P,G","CA_ANEN","Anencephaly",543,"N","No",NA,FALSE
+"537",1,"P,G","CA_ANEN","Anencephaly",543,"U","Unknown or not stated",NA,FALSE
+"538",1,"P,G","CA_MNSB","Meningomyelocele / Spina Bifida",544,"Y","Yes",NA,FALSE
+"538",1,"P,G","CA_MNSB","Meningomyelocele / Spina Bifida",544,"N","No",NA,FALSE
+"538",1,"P,G","CA_MNSB","Meningomyelocele / Spina Bifida",544,"U","Unknown or not stated",NA,FALSE
+"539",1,"P,G","CA_CCHD","Cyanotic Congenital Heart Disease",545,"Y","Yes",NA,FALSE
+"539",1,"P,G","CA_CCHD","Cyanotic Congenital Heart Disease",545,"N","No",NA,FALSE
+"539",1,"P,G","CA_CCHD","Cyanotic Congenital Heart Disease",545,"U","Unknown or not stated",NA,FALSE
+"540",1,"P,G","CA_CDH","Congenital Diaphragmatic Hernia",546,"Y","Yes",NA,FALSE
+"540",1,"P,G","CA_CDH","Congenital Diaphragmatic Hernia",546,"N","No",NA,FALSE
+"540",1,"P,G","CA_CDH","Congenital Diaphragmatic Hernia",546,"U","Unknown or not stated",NA,FALSE
+"541",1,"P,G","CA_OMPH","Omphalocele",547,"Y","Yes",NA,FALSE
+"541",1,"P,G","CA_OMPH","Omphalocele",547,"N","No",NA,FALSE
+"541",1,"P,G","CA_OMPH","Omphalocele",547,"U","Unknown or not stated",NA,FALSE
+"542",1,"P,G","CA_GAST","Gastroschisis",548,"Y","Yes",NA,FALSE
+"542",1,"P,G","CA_GAST","Gastroschisis",548,"N","No",NA,FALSE
+"542",1,"P,G","CA_GAST","Gastroschisis",548,"U","Unknown or not stated",NA,FALSE
+"543",1,"P,G","F_CA_ANEN","Reporting Flag for Anencephaly",NA,NA,"See footnote",NA,FALSE
+"544",1,"P,G","F_CA_MNSB","Reporting Flag for Meningomyelocele/Spina Bifida",NA,NA,"See footnote",NA,FALSE
+"545",1,"P,G","F_CA_CCHD","Reporting Flag for Cyanotic Congenital Heart Disease",NA,NA,"See footnote",NA,FALSE
+"546",1,"P,G","F_CA_CDH","Reporting Flag for Congenital Diaphragmatic Hernia",NA,NA,"See footnote",NA,FALSE
+"547",1,"P,G","F_CA_OMPH","Reporting Flag for Omphalocele",NA,NA,"See footnote",NA,FALSE
+"548",1,"P,G","F_CA_GAST","Reporting Flag for Gastroschisis",NA,NA,"See footnote",NA,FALSE
+"549",1,"P,G","CA_LIMB","Limb Reduction Defect",555,"Y","Yes",NA,FALSE
+"549",1,"P,G","CA_LIMB","Limb Reduction Defect",555,"N","No",NA,FALSE
+"549",1,"P,G","CA_LIMB","Limb Reduction Defect",555,"U","Unknown or not stated",NA,FALSE
+"550",1,"P,G","CA_CLEFT","Cleft Lip w/ or w/o Cleft Palate",556,"Y","Yes",NA,FALSE
+"550",1,"P,G","CA_CLEFT","Cleft Lip w/ or w/o Cleft Palate",556,"N","No",NA,FALSE
+"550",1,"P,G","CA_CLEFT","Cleft Lip w/ or w/o Cleft Palate",556,"U","Unknown or not stated",NA,FALSE
+"551",1,"P,G","CA_CLPAL","Cleft Palate alone",557,"Y","Yes",NA,FALSE
+"551",1,"P,G","CA_CLPAL","Cleft Palate alone",557,"N","No",NA,FALSE
+"551",1,"P,G","CA_CLPAL","Cleft Palate alone",557,"U","Unknown or not stated",NA,FALSE
+"552",1,"P,G","CA_DOWN","Down Syndrome",558,"C","Confirmed",NA,FALSE
+"552",1,"P,G","CA_DOWN","Down Syndrome",558,"P","Pending",NA,FALSE
+"552",1,"P,G","CA_DOWN","Down Syndrome",558,"N","No",NA,FALSE
+"552",1,"P,G","CA_DOWN","Down Syndrome",558,"U","Unknown",NA,FALSE
+"553",1,"P,G","CA_DISOR","Suspected Chromosomal Disorder",559,"C","Confirmed",NA,FALSE
+"553",1,"P,G","CA_DISOR","Suspected Chromosomal Disorder",559,"P","Pending",NA,FALSE
+"553",1,"P,G","CA_DISOR","Suspected Chromosomal Disorder",559,"N","No",NA,FALSE
+"553",1,"P,G","CA_DISOR","Suspected Chromosomal Disorder",559,"U","Unknown",NA,FALSE
+"554",1,"P,G","CA_HYPO","Hypospadias",560,"Y","Yes, anomaly reported",NA,FALSE
+"554",1,"P,G","CA_HYPO","Hypospadias",560,"N","No, anomaly not reported",NA,FALSE
+"554",1,"P,G","CA_HYPO","Hypospadias",560,"U","Unknown",NA,FALSE
+"555",1,"P,G","F_CA_LIMB","Reporting Flag for Limb Reduction Defect",NA,NA,"See footnote",NA,FALSE
+"556",1,"P,G","F_CA_CLEFT","Reporting Flag for Cleft Lip with or without Cleft Palate",NA,NA,"See footnote",NA,FALSE
+"557",1,"P,G","F_CA_CLPAL","Reporting Flag for Cleft Plate Alone",NA,NA,"See footnote",NA,FALSE
+"558",1,"P,G","F_CA_DOWN","Reporting Flag for Down Syndrome",NA,NA,"See footnote",NA,FALSE
+"559",1,"P,G","F_CA_DISOR","Reporting Flag for Suspected Chromosomal Disorder",NA,NA,"See footnote",NA,FALSE
+"560",1,"P,G","F_CA_HYPO","Reporting Flag for Hypospadias",NA,NA,"See footnote",NA,FALSE
+"561",1,"P,G","NO_CONGEN","No Congenital Anomalies Checked",126,"1","True",NA,FALSE
+"561",1,"P,G","NO_CONGEN","No Congenital Anomalies Checked",126,"0","False",NA,FALSE
+"561",1,"P,G","NO_CONGEN","No Congenital Anomalies Checked",126,"9","Not Reported",NA,FALSE
+"562-566",5,NA,"FILLER53","Filler",NA,"Blank",NA,NA,FALSE
+"567",1,"P,G","ITRAN","Infant Transferred",126,"Y","Yes",NA,FALSE
+"567",1,"P,G","ITRAN","Infant Transferred",126,"N","No",NA,FALSE
+"567",1,"P,G","ITRAN","Infant Transferred",126,"U","Unknown or not stated",NA,FALSE
+"568",1,"P,G","ILIVE","Infant Living at Time of Report",126,"Y","Yes",NA,FALSE
+"568",1,"P,G","ILIVE","Infant Living at Time of Report",126,"N","No",NA,FALSE
+"568",1,"P,G","ILIVE","Infant Living at Time of Report",126,"U","Unknown or not stated",NA,FALSE
+"569",1,"P,G","BFED","Infant Being Breastfed",570,"Y","Yes",NA,FALSE
+"569",1,"P,G","BFED","Infant Being Breastfed",570,"N","No",NA,FALSE
+"569",1,"P,G","BFED","Infant Being Breastfed",570,"U","Unknown or not stated",NA,FALSE
+"570",1,"P,G","F_BFED","Reporting Flag for Breastfed at Discharge",NA,NA,"See footnote",NA,FALSE
+"571-1345",759,"P,G","FILLER54","Filler",NA,"Blank",NA,NA,FALSE
+"1346",1,"P,G","FLGND","Match Status",NA,"1","Record in both files",NA,FALSE
+"1346",1,"P,G","FLGND","Match Status",NA,"Blank","Record not in both files",NA,FALSE
+"1347-1355",9,"P,G","FILLER55","Filler",NA,"Blank",NA,NA,TRUE
+"1356-1358",3,"P,G","AGED","Age at Death in Days",NA,"000-365","Number of days",NA,TRUE
+"1359",1,"P,G","AGER5","Infant age recode 5",NA,"1","Under 1 hour",NA,TRUE
+"1359",1,"P,G","AGER5","Infant age recode 5",NA,"2","1 – 23 hours",NA,TRUE
+"1359",1,"P,G","AGER5","Infant age recode 5",NA,"3","1 – 6 days",NA,TRUE
+"1359",1,"P,G","AGER5","Infant age recode 5",NA,"4","7 – 27 days (late neonatal)",NA,TRUE
+"1359",1,"P,G","AGER5","Infant age recode 5",NA,"5","28 days and over (postneonatal)",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"Blank","Age 1 year and over or not stated",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"01","Under 1 hour (includes not stated hours and minutes)",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"02","1 – 23 hours",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"03","1 day (includes not stated days)",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"04","2 days",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"05","3 days",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"06","4 days",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"07","5 days",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"08","6 days",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"09","7 days (includes not stated weeks)",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"10","14 – 20 days",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"11","21 – 27 days",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"12","1 month (includes not stated months)",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"13","2 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"14","3 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"15","4 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"16","5 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"17","6 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"18","7 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"19","8 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"20","9 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"21","10 months",NA,TRUE
+"1360-1361",2,"P,G","AGER22","Infant age recode 22",NA,"22","11 months",NA,TRUE
+"1362",1,"P,G","MANNER","Manner of Death",NA,"1","Accident",NA,TRUE
+"1362",1,"P,G","MANNER","Manner of Death",NA,"2","Suicide",NA,TRUE
+"1362",1,"P,G","MANNER","Manner of Death",NA,"3","Homicide",NA,TRUE
+"1362",1,"P,G","MANNER","Manner of Death",NA,"4","Pending investigation",NA,TRUE
+"1362",1,"P,G","MANNER","Manner of Death",NA,"5","Could not determine",NA,TRUE
+"1362",1,"P,G","MANNER","Manner of Death",NA,"6","Self-inflicted",NA,TRUE
+"1362",1,"P,G","MANNER","Manner of Death",NA,"7","Natural",NA,TRUE
+"1362",1,"P,G","MANNER","Manner of Death",NA,"Blank","Not specified",NA,TRUE
+"1363",1,"P,G","DISPO","Method of Disposition",NA,"B","Burial",NA,TRUE
+"1363",1,"P,G","DISPO","Method of Disposition",NA,"C","Cremation",NA,TRUE
+"1363",1,"P,G","DISPO","Method of Disposition",NA,"O","Other",NA,TRUE
+"1363",1,"P,G","DISPO","Method of Disposition",NA,"U","Unknown",NA,TRUE
+"1364",1,"P,G","AUTOPSY","Autopsy",NA,"Y","Yes",NA,TRUE
+"1364",1,"P,G","AUTOPSY","Autopsy",NA,"N","No",NA,TRUE
+"1364",1,"P,G","AUTOPSY","Autopsy",NA,"U","Unknown",NA,TRUE
+"1365",1,"P,G","FILLER56","Filler",NA,"Blank",NA,NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"0","Home",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"1","Residential institution",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"2","School, other institution and public administrative area",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"3","Sports and athletics area",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"4","Street and highway",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"5","Trade and service area",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"6","Industrial and construction area",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"7","Farm",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"8","Other Specified Places",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"9","Unspecified place",NA,TRUE
+"1366",1,"P,G","PLACE","Place of injury for causes W00-Y34, except Y06.- and Y07.-",NA,"Blank","Cause other than W00-Y34, except Y06.- and Y07.-",NA,TRUE
+"1367",1,"P,G","FILLER57","Filler",NA,"Blank",NA,NA,TRUE
+"1368-1371",4,"P,G","UC0D","ICD Code (10th Revision)",NA,NA,NA,NA,TRUE
+"1372",1,"P,G","FILLER57","Filler",NA,"Blank",NA,NA,TRUE
+"1373-1375",3,"P,G","UCODR130","130 Infant Cause Recode",NA,NA,NA,NA,TRUE
+"1376",1,"P,G","FILLER58","Filler",NA,"Blank",NA,NA,TRUE
+"1377-1384",8,"P,G","RECWT","Record Weight for period file",NA,"1.0-1.XXXXXX",NA,NA,TRUE
+"1385-1386",2,"P,G","FILLER59","Filler",NA,"Blank",NA,NA,TRUE
+"1387-1388",2,"P,G","EANUM","Number of Entity-Axis Conditions",NA,"00-20","Code range",NA,TRUE
+"1389-1395",7,"P,G","ENTITY1","1st Condition",NA,NA,NA,NA,TRUE
+"1396-1402",7,"P,G","ENTITY2","2nd Condition",NA,NA,NA,NA,TRUE
+"1403-1409",7,"P,G","ENTITY3","3rd Condition",NA,NA,NA,NA,TRUE
+"1410-1416",7,"P,G","ENTITY4","4th Condition",NA,NA,NA,NA,TRUE
+"1417-1423",7,"P,G","ENTITY5","5th Condition",NA,NA,NA,NA,TRUE
+"1424-1430",7,"P,G","ENTITY6","6th Condition",NA,NA,NA,NA,TRUE
+"1431-1437",7,"P,G","ENTITY7","7th Condition",NA,NA,NA,NA,TRUE
+"1438-1444",7,"P,G","ENTITY8","8th Condition",NA,NA,NA,NA,TRUE
+"1445-1451",7,"P,G","ENTITY9","9th Condition",NA,NA,NA,NA,TRUE
+"1452-1458",7,"P,G","ENTITY10","10th Condition",NA,NA,NA,NA,TRUE
+"1459-1465",7,"P,G","ENTITY11","11th Condition",NA,NA,NA,NA,TRUE
+"1466-1472",7,"P,G","ENTITY12","12th Condition",NA,NA,NA,NA,TRUE
+"1473-1479",7,"P,G","ENTITY13","13th Condition",NA,NA,NA,NA,TRUE
+"1480-1486",7,"P,G","ENTITY14","14th Condition",NA,NA,NA,NA,TRUE
+"1487-1493",7,"P,G","ENTITY15","15th Condition",NA,NA,NA,NA,TRUE
+"1494-1500",7,"P,G","ENTITY16","16th Condition",NA,NA,NA,NA,TRUE
+"1501-1507",7,"P,G","ENTITY17","17th Condition",NA,NA,NA,NA,TRUE
+"1508-1514",7,"P,G","ENTITY18","18th Condition",NA,NA,NA,NA,TRUE
+"1515-1521",7,"P,G","ENTITY19","19th Condition",NA,NA,NA,NA,TRUE
+"1522-1528",7,"P,G","ENTITY20","20th Condition",NA,NA,NA,NA,TRUE
+"1529-1530",2,"P,G","FILLER60","Filler",NA,"Blank",NA,NA,TRUE
+"1531-1532",2,"P,G","RANUM","Number of Record-Axis Conditions",NA,"00-20","Code range",NA,TRUE
+"1533-1537",5,"P,G","RECORD1","1st Condition",NA,NA,NA,NA,TRUE
+"1538-1542",5,"P,G","RECORD2","2nd Condition",NA,NA,NA,NA,TRUE
+"1543-1547",5,"P,G","RECORD3","3rd Condition",NA,NA,NA,NA,TRUE
+"1548-1552",5,"P,G","RECORD4","4th Condition",NA,NA,NA,NA,TRUE
+"1553-1557",5,"P,G","RECORD5","5th Condition",NA,NA,NA,NA,TRUE
+"1558-1562",5,"P,G","RECORD6","6th Condition",NA,NA,NA,NA,TRUE
+"1563-1567",5,"P,G","RECORD7","7th Condition",NA,NA,NA,NA,TRUE
+"1568-1572",5,"P,G","RECORD8","8th Condition",NA,NA,NA,NA,TRUE
+"1573-1577",5,"P,G","RECORD9","9th Condition",NA,NA,NA,NA,TRUE
+"1578-1582",5,"P,G","RECORD10","10th Condition",NA,NA,NA,NA,TRUE
+"1583-1587",5,"P,G","RECORD11","11th Condition",NA,NA,NA,NA,TRUE
+"1588-1592",5,"P,G","RECORD12","12th Condition",NA,NA,NA,NA,TRUE
+"1593-1597",5,"P,G","RECORD13","13th Condition",NA,NA,NA,NA,TRUE
+"1598-1602",5,"P,G","RECORD14","14th Condition",NA,NA,NA,NA,TRUE
+"1603-1607",5,"P,G","RECORD15","15th Condition",NA,NA,NA,NA,TRUE
+"1608-1612",5,"P,G","RECORD16","16th Condition",NA,NA,NA,NA,TRUE
+"1613-1617",5,"P,G","RECORD17","17th Condition",NA,NA,NA,NA,TRUE
+"1618-1622",5,"P,G","RECORD18","18th Condition",NA,NA,NA,NA,TRUE
+"1623-1627",5,"P,G","RECORD19","19th Condition",NA,NA,NA,NA,TRUE
+"1628-1632",5,"P,G","RECORD20","20th Condition",NA,NA,NA,NA,TRUE
+"1633-1669",37,"P,G","FILLER61","Filler",NA,"Blank",NA,NA,TRUE
+"1670",1,"P,G","HOSPD","Place of Death and Decendent’s Status",NA,"1","Hospital, clinic or Medical Center – Inpatient",NA,TRUE
+"1670",1,"P,G","HOSPD","Place of Death and Decendent’s Status",NA,"2","Hospital, clinic or Medical Center – Outpatient or admitted to Emergency Room",NA,TRUE
+"1670",1,"P,G","HOSPD","Place of Death and Decendent’s Status",NA,"3","Hospital, clinic or Medical Center – Dead on Arrival",NA,TRUE
+"1670",1,"P,G","HOSPD","Place of Death and Decendent’s Status",NA,"4","Decedent’s home",NA,TRUE
+"1670",1,"P,G","HOSPD","Place of Death and Decendent’s Status",NA,"5","Hospice facility",NA,TRUE
+"1670",1,"P,G","HOSPD","Place of Death and Decendent’s Status",NA,"6","Nursing home/long term care",NA,TRUE
+"1670",1,"P,G","HOSPD","Place of Death and Decendent’s Status",NA,"7","Other",NA,TRUE
+"1670",1,"P,G","HOSPD","Place of Death and Decendent’s Status",NA,"9","Place of death unknown",NA,TRUE
+"1671",1,"P,G","DWEEKDAY","Day of Week of Death",NA,"1","Sunday",NA,TRUE
+"1671",1,"P,G","DWEEKDAY","Day of Week of Death",NA,"2","Monday",NA,TRUE
+"1671",1,"P,G","DWEEKDAY","Day of Week of Death",NA,"3","Tuesday",NA,TRUE
+"1671",1,"P,G","DWEEKDAY","Day of Week of Death",NA,"4","Wednesday",NA,TRUE
+"1671",1,"P,G","DWEEKDAY","Day of Week of Death",NA,"5","Thursday",NA,TRUE
+"1671",1,"P,G","DWEEKDAY","Day of Week of Death",NA,"6","Friday",NA,TRUE
+"1671",1,"P,G","DWEEKDAY","Day of Week of Death",NA,"7","Saturday",NA,TRUE
+"1671",1,"P,G","DWEEKDAY","Day of Week of Death",NA,"9","Unknown",NA,TRUE
+"1672-1675",4,"P,G","DOD_YY","Data Year",NA,"2018","2018",NA,TRUE
+"1676-1741",66,"P,G","FILLER62","Filler",NA,"Blank",NA,NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"01","January",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"02","February",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"03","March",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"04","April",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"05","May",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"06","June",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"07","July",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"08","August",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"09","September",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"10","October",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"11","November",NA,TRUE
+"1742-1743",2,"P,G","DOD_MM","Month of Death",NA,"12","December",NA,TRUE
